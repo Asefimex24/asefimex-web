@@ -12,7 +12,7 @@
                         <div class="social-links mt-3">
                             <a href="https://www.facebook.com/AsefimexFinancieraMx/" class="facebook"><i class="bx bxl-facebook"></i></a>
                             <a href="https://www.instagram.com/asefimex/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                            <a href="https://www.twitter.com" class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <!-- <a href="https://www.twitter.com" class="twitter"><i class="bx bxl-twitter"></i></a> -->
                             <a href="https://www.linkedin.com/in/asefimex-financiera-196132257/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                         </div>
                     </div>
