@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 
-
-
 <?php
 include("../controller/control.publicaciones.php");
 include("../models/model.publicaciones.php");
@@ -105,17 +103,13 @@ if (isset($_GET['pub'])) {
 
         <!-- ======= Footer ======= -->
         <?php
-
-        include("../views/modulos/footer.php");
-
+          include("../views/modulos/footer.php");
         ?>
 
         <!-- End Footer -->
 
         <?php
-
-        include("scripts_footer.php");
-
+          include("scripts_footer.php");
         ?>
 
       </body>
