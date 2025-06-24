@@ -10,12 +10,12 @@
                 <li><a class="nav-link scrollto active" href="../">Inicio</a></li>
                 <li><a class="nav-link scrollto" href="../#portfolio">Productos</a></li>
                 <li><a class="nav-link scrollto" href="../#services">Publicaciones</a></li>
-                <li class="dropdown"><a href="../#"><span>Directorio</span> <i class="bi bi-chevron-down"></i></a>
+                <!-- <li class="dropdown"><a href="../#"><span>Directorio</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="../#directorio">Consejo de Administración</a></li>
                         <li><a href="../#directivos">Principales Directivos</a></li>
                     </ul>
-                </li>
+                </li> -->
                 <li><a class="nav-link scrollto" href="../#testimonials">Testimonios</a></li>
                 <li><a class="nav-link scrollto" href="../#contact">Contacto</a></li>
                 <li class="dropdown"><a href="#"><span>Acerca de</span> <i class="bi bi-chevron-down"></i></a>
