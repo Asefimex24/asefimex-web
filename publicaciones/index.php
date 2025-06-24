@@ -124,18 +124,18 @@ if (isset($_GET['pub'])) {
 
 <?php
     } else {
-      header('Location: https://asefimex.com/#pubs');
+      header('Location: ../#pubs');
     }
   } else {
-    header('Location: https://asefimex.com/#pubs');
+    header('Location: ../#pubs');
   }
 } else {
-  header('Location: https://asefimex.com/#pubs');
+  header('Location: ../#pubs');
 }
 
 
 function regresar()
 {
-  header('Location: https://asefimex.com/#pubs');
+  header('Location: ../#pubs');
 }
 ?>
