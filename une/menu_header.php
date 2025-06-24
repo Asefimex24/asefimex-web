@@ -25,8 +25,7 @@
                         <li><a href="../nosotros/#certificaciones">Certificaciones</a></li>
                         <li><a href="../nosotros/#alianzas">Alianzas Estratégicas</a></li>
                         <li><a href="../nosotros/#bolsa">Bolsa de Trabajo</a></li>
-                        <li><a href="../../manuales/">Manuales Internos</a></li>
-                        <li><a href="../../aviso/">Aviso de Privacidad</a></li>
+                        <li><a href="../aviso/">Aviso de Privacidad</a></li>
                         <li><a href="">Aviso UNE</a></li>
                     </ul>
                 </li>
