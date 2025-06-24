@@ -34,7 +34,7 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Marco Legal</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="/multi/aviso/">Aviso de Privacidad</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="../aviso/">Aviso de Privacidad</a></li>
                     </ul>
                 </div>
 
