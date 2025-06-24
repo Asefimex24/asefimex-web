@@ -24,9 +24,9 @@
                         <li><a href="../nosotros/#sucursales">Sucursales</a></li>
                         <li><a href="../nosotros/#certificaciones">Certificaciones</a></li>
                         <li><a href="../nosotros/#alianzas">Alianzas Estratégicas</a></li>
-                        <li><a href="../nosotros/#bolsa">Bolsa de Trabajo</a></li>
-                        <li><a href="/multi/manuales/">Manuales Internos</a></li>
-                        <li><a href="/multi/aviso/">Aviso de Privacidad</a></li>
+                        <li><a href="../nosotros/#bolsa">Bolsa de Trabajo</a></li>                        
+                        <li><a href="../aviso/">Aviso de Privacidad</a></li>
+                        <li><a href="../une/">Aviso UNE</a></li>
                     </ul>
                 </li>
 
