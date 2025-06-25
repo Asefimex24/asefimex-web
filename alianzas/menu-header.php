@@ -12,7 +12,7 @@
                 <li><a class="nav-link scrollto" href="../#pubs">Publicaciones</a></li>
                 <!-- <li class="dropdown"><a href="../#"><span>Directorio</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="../#directorio">Consejo de Administración</a></li>
+                        <li><a href="../#directorio">Consejo de Administracigón</a></li>
                         <li><a href="../#directivos">Principales Directivos</a></li>
                     </ul>
                 </li> -->
