@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Sucursales</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .map-container {
+            height: 100%;
+            min-height: 400px;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #f8f9fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .branch-card {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .branch-card:hover {
+            background-color: #f8f9fa;
+            transform: translateY(-2px);
+        }
+        
+        .branch-card.active {
+            border-left: 4px solid #0d6efd;
+            background-color: #f8f9fa;
+        }
+        
+        .info-window {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid py-4">
+        <div class="row mb-4">
+            <div class="col-12">
+                <h1 class="display-6 fw-bold"><i class="fas fa-map-marker-alt me-2"></i>Buscar Sucursales</h1>
+                <p class="text-muted">Encuentra la sucursal más cercana a tu ubicación</p>
+            </div>
+        </div>
+        
+        <div class="row g-4">
+            <!-- Panel de búsqueda -->
+            <div class="col-lg-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title mb-4">Filtrar sucursales</h5>
+                        
+                        <!-- Selector de estado -->
+                        <div class="mb-4">
+                            <label for="stateSelect" class="form-label">Estado</label>
+                            <select class="form-select" id="stateSelect">
+                                <option selected disabled>Selecciona un estado</option>
+                                <option value="aguascalientes">Aguascalientes</option>
+                                <option value="baja-california">Baja California</option>
+                                <option value="baja-california-sur">Baja California Sur</option>
+                                <option value="campeche">Campeche</option>
+                                <option value="chiapas">Chiapas</option>
+                                <option value="chihuahua">Chihuahua</option>
+                                <option value="ciudad-de-mexico">Ciudad de México</option>
+                                <option value="coahuila">Coahuila</option>
+                                <option value="colima">Colima</option>
+                                <option value="durango">Durango</option>
+                                <option value="guanajuato">Guanajuato</option>
+                                <option value="guerrero">Guerrero</option>
+                                <option value="hidalgo">Hidalgo</option>
+                                <option value="jalisco">Jalisco</option>
+                                <option value="mexico">Estado de México</option>
+                                <option value="michoacan">Michoacán</option>
+                                <option value="morelos">Morelos</option>
+                                <option value="nayarit">Nayarit</option>
+                                <option value="nuevo-leon">Nuevo León</option>
+                                <option value="oaxaca">Oaxaca</option>
+                                <option value="puebla">Puebla</option>
+                                <option value="queretaro">Querétaro</option>
+                                <option value="quintana-roo">Quintana Roo</option>
+                                <option value="san-luis-potosi">San Luis Potosí</option>
+                                <option value="sinaloa">Sinaloa</option>
+                                <option value="sonora">Sonora</option>
+                                <option value="tabasco">Tabasco</option>
+                                <option value="tamaulipas">Tamaulipas</option>
+                                <option value="tlaxcala">Tlaxcala</option>
+                                <option value="veracruz">Veracruz</option>
+                                <option value="yucatan">Yucatán</option>
+                                <option value="zacatecas">Zacatecas</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Lista de sucursales (se llenará dinámicamente) -->
+                        <div id="branchListContainer" class="d-none">
+                            <label class="form-label">Sucursales disponibles</label>
+                            <div id="branchList" class="list-group overflow-auto" style="max-height: 500px;">
+                                <!-- Ejemplo de sucursal (se generará dinámicamente) -->
+                                <div class="list-group-item branch-card">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h6 class="mb-1">Sucursal Centro</h6>
+                                        <small class="text-muted">2.5 km</small>
+                                    </div>
+                                    <p class="mb-1">Av. Principal #123, Col. Centro</p>
+                                    <small class="text-muted"><i class="fas fa-phone me-1"></i>55 1234 5678</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Mensaje cuando no hay sucursales -->
+                        <div id="noBranchesMessage" class="text-center py-4 d-none">
+                            <i class="fas fa-store-slash fa-3x text-muted mb-3"></i>
+                            <h5 class="text-muted">No hay sucursales en este estado</h5>
+                            <p class="text-muted">Selecciona otro estado para ver las sucursales disponibles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Mapa -->
+            <div class="col-lg-8">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body p-0">
+                        <div class="map-container">
+                            <div id="map" style="width: 100%; height: 100%;"></div>
+                            <div id="mapPlaceholder" class="text-center p-4">
+                                <i class="fas fa-map fa-4x text-muted mb-3"></i>
+                                <h4 class="text-muted">Selecciona un estado para ver las sucursales</h4>
+                                <p class="text-muted">Las sucursales disponibles aparecerán aquí</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Script para la funcionalidad -->
+    <script>
+        // Ejemplo de datos de sucursales (en un caso real, estos datos vendrían de una API)
+        const branchesData = {
+            "jalisco": [
+                {
+                    id: 1,
+                    name: "Sucursal Guadalajara Centro",
+                    address: "Av. Juárez #123, Col. Centro, Guadalajara",
+                    phone: "33 1234 5678",
+                    lat: 20.6736,
+                    lng: -103.3445,
+                    distance: "1.2 km"
+                },
+                {
+                    id: 2,
+                    name: "Sucursal Zapopan",
+                    address: "Av. Vallarta #456, Col. Americana, Zapopan",
+                    phone: "33 8765 4321",
+                    lat: 20.7245,
+                    lng: -103.3847,
+                    distance: "5.7 km"
+                }
+            ],
+            "nuevo-leon": [
+                {
+                    id: 3,
+                    name: "Sucursal Monterrey Centro",
+                    address: "Av. Constitución #789, Col. Centro, Monterrey",
+                    phone: "81 2345 6789",
+                    lat: 25.6714,
+                    lng: -100.3095,
+                    distance: "0.8 km"
+                }
+            ],
+            "ciudad-de-mexico": [
+                {
+                    id: 4,
+                    name: "Sucursal Polanco",
+                    address: "Av. Presidente Masaryk #123, Polanco",
+                    phone: "55 9876 5432",
+                    lat: 19.4333,
+                    lng: -99.1833,
+                    distance: "3.1 km"
+                },
+                {
+                    id: 5,
+                    name: "Sucursal Condesa",
+                    address: "Av. Michoacán #456, Col. Condesa",
+                    phone: "55 1234 9876",
+                    lat: 19.4117,
+                    lng: -99.1758,
+                    distance: "5.4 km"
+                }
+            ]
+        };
+
+        // Elementos del DOM
+        const stateSelect = document.getElementById('stateSelect');
+        const branchListContainer = document.getElementById('branchListContainer');
+        const branchList = document.getElementById('branchList');
+        const noBranchesMessage = document.getElementById('noBranchesMessage');
+        const mapPlaceholder = document.getElementById('mapPlaceholder');
+        
+        // Manejador de cambio en el selector de estados
+        stateSelect.addEventListener('change', function() {
+            const selectedState = this.value;
+            
+            // Limpiar lista de sucursales
+            branchList.innerHTML = '';
+            
+            // Verificar si hay sucursales para el estado seleccionado
+            if (branchesData[selectedState]) {
+                // Mostrar lista de sucursales
+                branchListContainer.classList.remove('d-none');
+                noBranchesMessage.classList.add('d-none');
+                
+                // Llenar lista de sucursales
+                branchesData[selectedState].forEach(branch => {
+                    const branchItem = document.createElement('div');
+                    branchItem.className = 'list-group-item branch-card';
+                    branchItem.innerHTML = `
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1">${branch.name}</h6>
+                            <small class="text-muted">${branch.distance}</small>
+                        </div>
+                        <p class="mb-1">${branch.address}</p>
+                        <small class="text-muted"><i class="fas fa-phone me-1"></i>${branch.phone}</small>
+                    `;
+                    
+                    // Agregar manejador de clic para mostrar en el mapa
+                    branchItem.addEventListener('click', function() {
+                        // Remover clase active de todas las tarjetas
+                        document.querySelectorAll('.branch-card').forEach(card => {
+                            card.classList.remove('active');
+                        });
+                        
+                        // Agregar clase active a la tarjeta seleccionada
+                        this.classList.add('active');
+                        
+                        // Mostrar la sucursal en el mapa (en una implementación real)
+                        showBranchOnMap(branch);
+                    });
+                    
+                    branchList.appendChild(branchItem);
+                });
+                
+                // Seleccionar y mostrar la primera sucursal por defecto
+                if (branchesData[selectedState].length > 0) {
+                    const firstBranch = branchesData[selectedState][0];
+                    branchList.children[0].classList.add('active');
+                    showBranchOnMap(firstBranch);
+                }
+            } else {
+                // No hay sucursales para este estado
+                branchListContainer.classList.add('d-none');
+                noBranchesMessage.classList.remove('d-none');
+                mapPlaceholder.classList.remove('d-none');
+            }
+        });
+        
+        // Función para mostrar sucursal en el mapa (simulación)
+        function showBranchOnMap(branch) {
+            mapPlaceholder.classList.add('d-none');
+            
+            // En una implementación real, aquí se inicializaría o actualizaría el mapa
+            // con la ubicación de la sucursal seleccionada usando Google Maps, Mapbox, etc.
+            console.log(`Mostrando en el mapa: ${branch.name} (${branch.lat}, ${branch.lng})`);
+            
+            // Ejemplo de cómo se vería la información en un mapa real:
+            /*
+            if (!window.map) {
+                window.map = new google.maps.Map(document.getElementById('map'), {
+                    center: { lat: branch.lat, lng: branch.lng },
+                    zoom: 15
+                });
+            } else {
+                window.map.setCenter({ lat: branch.lat, lng: branch.lng });
+            }
+            
+            if (window.marker) {
+                window.marker.setMap(null);
+            }
+            
+            window.marker = new google.maps.Marker({
+                position: { lat: branch.lat, lng: branch.lng },
+                map: window.map,
+                title: branch.name
+            });
+            
+            if (window.infoWindow) {
+                window.infoWindow.close();
+            }
+            
+            const contentString = `
+                <div class="info-window">
+                    <h6>${branch.name}</h6>
+                    <p>${branch.address}</p>
+                    <p><i class="fas fa-phone me-1"></i>${branch.phone}</p>
+                </div>
+            `;
+            
+            window.infoWindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+            
+            window.infoWindow.open(window.map, window.marker);
+            window.marker.addListener('click', () => {
+                window.infoWindow.open(window.map, window.marker);
+            });
+            */
+        }
+    </script>
+</body>
+</html>

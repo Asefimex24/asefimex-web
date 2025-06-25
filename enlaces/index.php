@@ -95,18 +95,6 @@
 
         </div>                  
       </div> 
-         <div class="container" data-aos="fade-up">
-            <div class="row no-gutters">
-                  <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span>Soporte</span>
-              <p><strong>RustDesk</strong> se utiliza para dar soporte remoto a usuarios de Asefimex</p>
-              <a href="https://github.com/rustdesk/rustdesk/releases/download/1.3.8/rustdesk-1.3.8-x86_64.msi">Descarga Aquí</a>
-            </div>
-          </div>
-            </div>
-         </div>
       
     </section><!-- End Counts Section -->
 
