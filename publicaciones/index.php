@@ -121,7 +121,12 @@ if (isset($_GET['pub'])) {
       header('Location: ../#pubs');
     }
   } else {
+
+
     header('Location: ../#pubs');
+  
+  
+  
   }
 } else {
   header('Location: ../#pubs');
