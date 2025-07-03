@@ -9,8 +9,29 @@
     $directivos = Control_directivos::Ctr_getDirectivos();
     $testimonios = Control_testimonio::Ctr_getTestimonios();
 ?>
+<style>
+    .float-wa{
+        position:fixed;
+        left: 100;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        z-index:100;
+    }
+</style>
 
 <body>
+
+    <a href="https://wa.me/5219615792121?text=Necesito+información" class="float-wa" target="_blank">
+        <i class="fa fa-whatsapp" style="margin-top:16px;"></i>
+    </a>
+
     <?php
         // include("views/modulos/modal_video.php");
         include("views/modulos/modal-aviso-fraudes.php");
