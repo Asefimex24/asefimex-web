@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,6 @@
     <meta name="keywords" content="Asefimex, Asefimex Financiera, Motocarro, Crédito Moto, Crédito Mototaxi, Motototaxi, Pochi, Pochimovil, Financiera Asefimex,
         Asesoría Financiera de México, Crédito">
 
-  <!-- Favicons -->
   <link href="../assets/img/favicon.ico" rel="icon">
   <link href="../assets/img/apple-touch-icon.ico" rel="apple-touch-icon">
 
@@ -18,4 +17,9 @@
     <frame src="https://portal.intelligential.tech/" frameborder="0"> 
     <frame frameborder="0">     
 </frameset> 
-</html>
+</html> -->
+
+
+<?php
+    header("Location:https://portal.intelligential.tech/");
+?>
