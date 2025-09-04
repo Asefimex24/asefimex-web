@@ -2,6 +2,7 @@
 <html lang="es">
 
 <?php
+include("../get_env.php");
 include("../controller/control.publicaciones.php");
 include("../models/model.publicaciones.php");
 
@@ -53,7 +54,7 @@ if (isset($_GET['pub'])) {
                     <div class="swiper-wrapper align-items-center">
 
                       <div class="swiper-slide">
-                        <img src="<?php echo $publicacion['imagen']; ?>" alt="">
+                        <img src="<?php echo $_ENV["HOME_ROUTE"]."/assets/img/pubs/".$publicacion['imagen']; ?>" alt="">
                       </div>
 
                       <!--
