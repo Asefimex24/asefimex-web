@@ -4,6 +4,7 @@
 <?php
 include("../controller/control.certificaciones.php");
 include("../models/model.certificaciones.php");
+include("../get_env.php");
 
 if (isset($_GET['cert'])) {
   if (!empty($_GET["cert"])) {
@@ -55,7 +56,7 @@ if (isset($_GET['cert'])) {
                     <div class="swiper-wrapper align-items-center">
 
                       <div class="swiper-slide">
-                        <img src="<?php echo $certificacion['imagen']; ?>" alt="">
+                        <img src="<?php echo $_ENV["HOME_ROUTE"]."/assets/img/cert/".$certificacion['imagen']; ?>" alt="">
                       </div>
                       <!--
                 <div class="swiper-slide">

@@ -4,6 +4,7 @@
 <?php
 include("../controller/control.alianzas.php");
 include("../models/model.alianzas.php");
+include("../get_env.php");
 
 if (isset($_GET['al'])) {
 
@@ -53,7 +54,7 @@ if (isset($_GET['al'])) {
                     <div class="swiper-wrapper align-items-center">
 
                       <div class="swiper-slide">
-                        <img src="<?php echo $alianza['imagen']; ?>" alt="">
+                        <img src="<?php echo $_ENV["HOME_ROUTE"]."/assets/img/alianz/".$alianza['imagen']; ?>" alt="">
                       </div>
                       <!--
                 <div class="swiper-slide">

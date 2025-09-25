@@ -11,7 +11,7 @@
                             <div class="container">                                                           
                                 <h2 class="animate__animated animate__fadeInDown"><?php echo $hero_value['titulo']; ?></h2>
                                 <p class="animate__animated animate__fadeInUp"><?php echo $hero_value['descripcion']; ?></p>
-                                <a href="https://asefimex.com/login-prospectos/" class="btn-get-started animate__animated animate__fadeInUp scrollto">Quiero un
+                                <a href="https://asefimex.com/login-prospectos/" class="btn-get-started animate__animated animate__fadeInUp scrollto" target="_blank">Quiero un
                                     Crédito
                                 </a>
                             </div>
@@ -26,7 +26,7 @@
                             <div class="container">
                                 <h2 class="animate__animated animate__fadeInDown"><?php echo $hero_value["titulo"]; ?></h2>
                                 <p class="animate__animated animate__fadeInUp"><?php echo $hero_value["descripcion"]; ?></p>
-                                <a href="https://asefimex.com/login-prospectos/" class="btn-get-started animate__animated animate__fadeInUp scrollto">Quiero un
+                                <a href="https://asefimex.com/login-prospectos/" class="btn-get-started animate__animated animate__fadeInUp scrollto" target="_blank">Quiero un
                                     Crédito</a>
                             </div>
                         </div>
