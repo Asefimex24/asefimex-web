@@ -20,6 +20,8 @@ require_once("controller/control.testimonios.php");
 require_once("models/model.directivos.php");
 require_once("controller/control.directivos.php");
 
+require_once("get_env.php");
+
 $plantilla = new Control_Plantilla();
 
 $plantilla->get_Plantilla();

@@ -6,7 +6,7 @@
             foreach ($heros as $key => $hero_value) {
                 if ($hero_value['id'] == 1) { ?>
                     <!-- active slide-->
-                    <div class="carousel-item active" style="background-image: url(<?php echo $hero_value['imagen']; ?>)">
+                    <div class="carousel-item active" style="background-image: url(<?php echo $_ENV['HOME_ROUTE']."assets/img/slide/". $hero_value['imagen']; ?>)">
                         <div class="carousel-container">
                             <div class="container">                                                           
                                 <h2 class="animate__animated animate__fadeInDown"><?php echo $hero_value['titulo']; ?></h2>
@@ -21,7 +21,7 @@
                 } else {
                 ?>
                     <!-- secondary slide -->
-                    <div class="carousel-item" style="background-image: url(<?php echo $hero_value['imagen']; ?>)">
+                    <div class="carousel-item" style="background-image: url(<?php echo $_ENV['HOME_ROUTE']."assets/img/slide/". $hero_value['imagen']; ?>)">
                         <div class="carousel-container">
                             <div class="container">
                                 <h2 class="animate__animated animate__fadeInDown"><?php echo $hero_value["titulo"]; ?></h2>
