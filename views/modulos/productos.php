@@ -10,8 +10,8 @@
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
                     <li data-filter="*" class="filter-active">Todos</li>
-                    <li data-filter=".filter-app">Unidad de Carga</li>
-                    <li data-filter=".filter-card">Unidad de Pasajeros</li>
+                    <li data-filter=".filter-app">Crédito Productivo</li>
+                    <li data-filter=".filter-card">Crédito en Efectivo</li>
                     <!-- <li data-filter=".filter-web">Web</li> -->
                 </ul>
             </div>
@@ -25,7 +25,7 @@
                     <h4>Unidad de Carga 1</h4>
                     <p>Solicitar Crédito</p>
                     <a href="assets/img/portfolio/44.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="details-link" title="Más Información"><i class="bx bx-link"></i></a>
+                    <a href="portfolio-details.html" class="details-link" title="Más Información" target="_blank"><i class="bx bx-link"></i></a>
                 </div>
             </div>
 

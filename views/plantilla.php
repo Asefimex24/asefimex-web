@@ -69,7 +69,7 @@
 
         <!-- ======= productos  ======= -->
         <?php
-        //  include("views/modulos/productos.php");
+          //include("views/modulos/productos.php");
         ?>
         <!--  productos  -->
 

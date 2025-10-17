@@ -93,11 +93,40 @@
             </div>
           </div>
 
-        </div>                  
+        </div>  
+
+
+     
+
       </div> 
       
-    </section><!-- End Counts Section -->
+      
+    </section>
 
+
+     <section id="counts" class="counts">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="bi bi-printer"></i>
+              <span>Scanner</span>
+              <p><strong>Naps 2</strong> es la aplicación recomendada para escanear documentos.</p>
+              <a href="https://github.com/cyanfish/naps2/releases/download/v8.2.1/naps2-8.2.1-win-x64.exe">Descarga Aquí</a>
+            </div>
+          </div>
+
+        </div>  
+
+
+     
+
+      </div> 
+      
+      
+    </section>
 
   </main><!-- End #main -->
 
