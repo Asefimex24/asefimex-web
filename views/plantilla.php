@@ -8,6 +8,7 @@
     $directorio = Control_directorio::Ctr_getDirectorio();
     $directivos = Control_directivos::Ctr_getDirectivos();
     $testimonios = Control_testimonio::Ctr_getTestimonios();
+    $productos = Control_productos::ctr_getProductos();
     include("./get_env.php");
 ?>
 <style>
