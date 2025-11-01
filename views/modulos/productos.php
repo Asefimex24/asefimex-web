@@ -23,7 +23,7 @@
                     <div class="portfolio-info">
                         <h4><?php echo $producto['nombre'] ?></h4>
                         <p><?php echo $producto['descripcion'] ?></p>
-                        <a href="assets/img/products/<?php echo $producto['imagen'] ?>" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                        <a href="assets/img/products/<?php echo $producto['imagen'] ?>" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Crédito <?php echo $producto['nombre'] ?>"><i class="bx bx-plus"></i></a>
                         <a href="portfolio-details.html" class="details-link" title="Más Información" target="_blank"><i class="bx bx-link"></i></a>
                     </div>
                 </div>
