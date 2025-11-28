@@ -72,7 +72,7 @@ if (isset($_GET['cert'])) {
                   </div>
                   <br><br>
                   <h3><?php echo $certificacion['descripcion']; ?></h3>
-                  <p style="text-align: justify;">
+                  <p>
                     <?php echo $certificacion['contenido']; ?>
                   </p>
                 </div>

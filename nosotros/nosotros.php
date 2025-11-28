@@ -1,10 +1,14 @@
+<?php
+$empresa = Control_Empresa::ctr_getEmpresas();
+?>
+
 <section id="nosotros" class="why-us section-bg">
     <div class="container-fluid" data-aos="fade-up">
 
         <div class="row">
 
             <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("../assets/img/default_full2.jpg");' data-aos="zoom-in" data-aos-delay="100">
-               
+
                 <a href="https://youtu.be/lqRCh2V5aR8?si=8-wrt3cj4IjFTLrL" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
             </div>
 
@@ -22,25 +26,29 @@
                 <div class="accordion-list">
                     <ul>
                         <li>
-                            <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span>
-                                Misión y Visión
-                                <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                           <a data-bs-toggle="collapse" data-bs-target="#accordion-list-1" class="collapsed"><span>01</span>
+                                Misión <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-1" class="collapse" data-bs-parent=".accordion-list">
                                 <p>
-                                    MISIÓN: Contribuir para el desarrollo de las familias mexicanas otorgándoles recursos y servicios financieros,
-                                    en esquemas de responsabilidad y compromiso, que permitan mejorar la calidad de vida en nuestro país.
-                                </p>
-                                <p>
-                                    VISIÓN: Consolidarnos como un enlace oportuno y eficiente entre las instituciones financieras y los usuarios
-                                    de crédito no bancarizados, ofreciendo productos y servicios novedosos y adecuados que satisfagan las necesidades de nuestro mercado.
+                                    <?php echo $empresa[0]["mision"]; ?>
                                 </p>
                             </div>
                         </li>
 
                         <li>
-                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span>
+                           <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span>
+                                Visión <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">                        
+                                <p>
+                                    <?php echo $empresa[0]["vision"]; ?>
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span>
                                 Nuestra Historia <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                            <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                                 <p>
                                     Somos una Sociedad Financiera de Objeto Múltiple (SOFOM) especializada en el otorgamiento de crédito para la
                                     adquisición de Motocarros de pasajeros y de carga, con operaciones desde el 2013 principalmente en el sureste de
@@ -60,9 +68,9 @@
                         </li>
 
                         <li>
-                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span>
+                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-4" class="collapsed"><span>04</span>
                                 Nuestros Valores <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                            <div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
                                 <p>
                                     Honestidad: somos una Entidad que busca siempre un desempeño claro y transparente tanto con nuestros clientes como
                                     con nuestro equipo de trabajo.
@@ -80,9 +88,9 @@
                             </div>
                         </li>
                         <li>
-                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-4" class="collapsed"><span>03</span>
+                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-5" class="collapsed"><span>05</span>
                                 Enfoque de Negocio <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
+                            <div id="accordion-list-5" class="collapse" data-bs-parent=".accordion-list">
                                 <p>
                                     Buscamos relaciones duraderas y enfocadas en la creación de valor. Ofrecemos productos de crédito innovadores,
                                     que responden a las necesidades cambiantes de nuestros clientes, para continuar siendo su mejor opción de financiamiento.

@@ -11,6 +11,9 @@ require_once("../controller/control.certificaciones.php");
 require_once("../models/model.alianzas.php");
 require_once("../controller/control.alianzas.php");
 
+require_once("../models/modelo.empresa.php");
+require_once("../controller/control.empresa.php");
+
 ?>
 
 <body>
