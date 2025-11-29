@@ -29,7 +29,7 @@
                         <div class="info-box mt-4">
                             <i class="bx bx-phone-call"></i>
                             <h3>Llámanos</h3>
-                            <p>961 614 7676</p>
+                            <p> 961 614 7676</p>
                         </div>
                     </div>
                 </div>

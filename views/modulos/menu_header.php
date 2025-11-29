@@ -3,9 +3,12 @@
 
         <!-- <h1 class="logo"><a href="index.html">Asefimex</a></h1>-->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="#" class="logo">
-            <img src="assets/img/logo-horizontal.png" alt="" class="img-fluid">
-        </a>
+         <div class="d-flex align-items-center">
+            <a href="#" class="logo">
+            <img src="assets/img/logo-vertical.png" alt="" class="img-fluid">
+            </a>
+         </div>
+     
 
         <nav id="navbar" class="navbar">
             <ul>
