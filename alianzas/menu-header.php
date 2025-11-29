@@ -3,7 +3,7 @@
 
         <!-- <h1 class="logo"><a href="index.html">Asefimex</a></h1>-->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="#" class="logo"><img src="../assets/img/logo-horizontal1.png" alt="" class="img-fluid"></a>
+        <a href="#" class="logo"><img src="../assets/img/logo-horizontal.png" alt="" class="img-fluid"></a>
 
         <nav id="navbar" class="navbar">
             <ul>
