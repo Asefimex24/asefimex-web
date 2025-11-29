@@ -3,7 +3,9 @@
 
         <!-- <h1 class="logo"><a href="index.html">Asefimex</a></h1>-->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="#" class="logo"><img src="assets/img/logo_horizontal.png" alt="" class="img-fluid"></a>
+        <a href="#" class="logo">
+            <img src="assets/img/logo-horizontal1.png" alt="" class="img-fluid">
+        </a>
 
         <nav id="navbar" class="navbar">
             <ul>
@@ -24,7 +26,7 @@
                         <li><a href="./nosotros/#sucursales">Sucursales</a></li>
                         <li><a href="./nosotros/#certificaciones">Certificaciones</a></li>
                         <li><a href="./nosotros/#alianzas">Alianzas Estratégicas</a></li>
-                        <li><a href="./nosotros/#bolsa">Bolsa de Trabajo</a></li>                        
+                        <li><a href="./nosotros/#bolsa">Bolsa de Trabajo</a></li>
                         <li><a href="./aviso/">Aviso de Privacidad</a></li>
                         <li><a href="./une/">Aviso UNE</a></li>
                         <li><a href="./buro-entidades/">Buró Entidades Financieras</a></li>
