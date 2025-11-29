@@ -21,12 +21,13 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Sitios de interés</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.piaggiomx.com/">PiaggioMX</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.condusef.gob.mx/">Condusef</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.cnbv.gob.mx/">CNBV</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="https://prodesarrollo.org/">Prodesarrollo</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="https://asofom.mx/">Asofom</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.circulodecredito.com.mx/home">Circulo de Crédito</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.piaggiomx.com/" target="_blank">PiaggioMX</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.condusef.gob.mx/" target="_blank">Condusef</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.cnbv.gob.mx/" target="_blank">CNBV</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="https://prodesarrollo.org/" target="_blank">Prodesarrollo</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="https://asofom.mx/" target="_blank">Asofom</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.circulodecredito.com.mx/home" target="_blank">Circulo de Crédito</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="http://www.buro.gob.mx" target="_blank">Buró de Entidades Financieras</a></li>
 
                     </ul>
                 </div>
@@ -55,8 +56,17 @@
         El Buró de entidades Financieras permite la consulta y difusión de los productos que ofrecen las entidades financieras,
         sus comisiones y tasas, sus prácticas, sanciones administrativas, las reclamaciones de los usuarios, y otra información
         que resulte relevante para informar sobre su desempeño. Podrás localizar información relevante de Asesoría Financiera de México S.A. DE C.V. SOFOM ENR en
-        https://www.buro.gob.mx/#sectores. Para conocer cualquier otra información relevante del Buró de entidades Financieras y conocer la
-        información de todo el sector, podrás acceder al sitio http://www.buro.gob.mx.
+        <a href="https://www.buro.gob.mx/#sectores" target="_blank">https://www.buro.gob.mx/#sectores</a>. Para conocer cualquier otra información relevante del Buró de entidades Financieras y conocer la
+        información de todo el sector, podrás acceder al sitio <a href="http://www.buro.gob.mx" target="_blank">http://www.buro.gob.mx</a>.
+        <p style="text-align: center;">
+            <a href="https://www.condusef.gob.mx/" target="_blank">
+            <img src="assets/img/logo-condusef.png" alt="" style="width: 100px;heigth:100px"></a>
+            <a href="https://www.cnbv.gob.mx/" target="_blank">
+            <img src="assets/img/logo-cnbv.png" alt="" style="width: 100px;heigth:100px"></a>
+            <a href="http://www.buro.gob.mx" target="_blank">
+            <img src="assets/img/logo-buro.png" alt="" style="width: 100px;heigth:100px"></a>
+        
+        </p>
         <div class="copyright">
             <strong>
                 <span>
