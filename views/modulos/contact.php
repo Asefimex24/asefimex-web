@@ -22,14 +22,14 @@
                         <div class="info-box mt-4">
                             <i class="bx bx-envelope"></i>
                             <h3>Escríbenos</h3>
-                            <p>servicioalcliente@asefimex.com</p>
+                            <p><a href="mailto:servicioalcliente@asefimex.com"> servicioalcliente@asefimex.com</a></p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="info-box mt-4">
                             <i class="bx bx-phone-call"></i>
                             <h3>Llámanos</h3>
-                            <p> 961 614 7676</p>
+                            <p> <a href="tel:+529616147676">961 614 7676</a></p>
                         </div>
                     </div>
                 </div>
