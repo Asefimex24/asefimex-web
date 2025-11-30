@@ -3,6 +3,7 @@
 
         <!-- <h1 class="logo"><a href="index.html">Asefimex</a></h1>-->
         <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- configurar la variable de entorno para utilizar unicamente el menu_header de la pagina principal -->
         <a href="#" class="logo"><img src="../assets/img/logo-vertical.png" alt="" class="img-fluid"></a>
 
         <nav id="navbar" class="navbar">

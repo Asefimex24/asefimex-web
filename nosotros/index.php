@@ -13,6 +13,7 @@ require_once("../controller/control.alianzas.php");
 
 require_once("../models/modelo.empresa.php");
 require_once("../controller/control.empresa.php");
+require_once("../get_env.php");
 
 ?>
 

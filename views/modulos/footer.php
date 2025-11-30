@@ -58,13 +58,15 @@
         que resulte relevante para informar sobre su desempeño. Podrás localizar información relevante de Asesoría Financiera de México S.A. DE C.V. SOFOM ENR en
         <a href="https://www.buro.gob.mx/#sectores" target="_blank">https://www.buro.gob.mx/#sectores</a>. Para conocer cualquier otra información relevante del Buró de entidades Financieras y conocer la
         información de todo el sector, podrás acceder al sitio <a href="http://www.buro.gob.mx" target="_blank">http://www.buro.gob.mx</a>.
+
+            <!-- Pendiente agregar las imagenes con ruta de variable de entorno para utilizar el mismo apartado en todas las secciones -->
         <p style="text-align: center;">
             <a href="https://www.condusef.gob.mx/" target="_blank">
-            <img src="assets/img/logo-condusef.png" alt="" style="width: 100px;heigth:100px"></a>
+            <img src="<?php echo $_ENV['HOME_ROUTE']; ?>assets/img/logo-condusef.png" alt="" style="width: 100px;heigth:100px"></a>
             <a href="https://www.cnbv.gob.mx/" target="_blank">
-            <img src="assets/img/logo-cnbv.png" alt="" style="width: 100px;heigth:100px"></a>
+            <img src="<?php echo $_ENV['HOME_ROUTE']; ?>assets/img/logo-cnbv.png" alt="" style="width: 100px;heigth:100px"></a>
             <a href="http://www.buro.gob.mx" target="_blank">
-            <img src="assets/img/logo-buro.png" alt="" style="width: 100px;heigth:100px"></a>
+            <img src="<?php echo $_ENV['HOME_ROUTE']; ?>assets/img/logo-buro.png" alt="" style="width: 100px;heigth:100px"></a>
         
         </p>
         <div class="copyright">

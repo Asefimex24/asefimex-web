@@ -9,6 +9,7 @@ include "header.php";
   <!-- ======= Header ======= -->
   <?php
   include("../alianzas/menu-header.php");
+  require_once "../get_env.php";
   ?>
   <!-- End Header -->
 
