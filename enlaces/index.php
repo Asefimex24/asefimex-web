@@ -89,7 +89,7 @@
               <i class="bi bi-headset"></i>
               <span>Soporte</span>
               <p><strong>RustDesk</strong> se utiliza para dar soporte remoto a usuarios de Asefimex</p>
-              <a href="https://github.com/rustdesk/rustdesk/releases/download/1.4.0/rustdesk-1.4.0-x86_64.msi">Descarga Aquí</a>
+              <a href="https://github.com/rustdesk/rustdesk/releases/download/1.4.4/rustdesk-1.4.4-x86_64.msi">Descarga Aquí</a>
             </div>
           </div>
 
