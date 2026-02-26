@@ -2,29 +2,29 @@
 <html lang="es">
 
 <?php
-    include("views/modulos/header.php");
-    $heros = Control_Hero::Ctr_getHeros();
-    $publicaciones = Control_Publicaciones::Ctr_getPublicaciones();
-    $directorio = Control_directorio::Ctr_getDirectorio();
-    $directivos = Control_directivos::Ctr_getDirectivos();
-    $testimonios = Control_testimonio::Ctr_getTestimonios();
-    $productos = Control_productos::ctr_getProductos();
-    include("./get_env.php");
+include("views/modulos/header.php");
+$heros = Control_Hero::Ctr_getHeros();
+$publicaciones = Control_Publicaciones::Ctr_getPublicaciones();
+$directorio = Control_directorio::Ctr_getDirectorio();
+$directivos = Control_directivos::Ctr_getDirectivos();
+$testimonios = Control_testimonio::Ctr_getTestimonios();
+$productos = Control_productos::ctr_getProductos();
+include("./get_env.php");
 ?>
 <style>
-    .float-wa{
-        position:fixed;
+    .float-wa {
+        position: fixed;
         left: 100;
-        width:60px;
-        height:60px;
-        bottom:40px;
-        right:40px;
-        background-color:#25d366;
-        color:#FFF;
-        border-radius:50px;
-        text-align:center;
-        font-size:30px;
-        z-index:100;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        z-index: 100;
     }
 </style>
 
@@ -35,20 +35,20 @@
     </a>
 
     <?php
-        // include("views/modulos/modal_video.php");
-        include("views/modulos/modal-aviso-fraudes.php");
+    // include("views/modulos/modal_video.php");
+    include("views/modulos/modal-aviso-fraudes.php");
     ?>
 
     <!-- ======= Menu principal ======= -->
     <?php
-        include("views/modulos/menu_header.php");
+    include("views/modulos/menu_header.php");
     ?>
     <!-- ======= Menu principal ======= -->
 
 
     <!-- ======= Home Hero Section ======= -->
     <?php
-        include("views/modulos/home_hero.php");
+    include("views/modulos/home_hero.php");
     ?>
     <!-- ======= Home Hero Section ======= -->
 
@@ -56,60 +56,78 @@
 
         <!-- ======= About Section ======= -->
         <?php
-            include("views/modulos/solicitud.php");
+        include("views/modulos/solicitud.php");
         ?>
         <!-- ======= About Section ======= -->
 
 
         <!-- ======= Counts Section ======= -->
         <?php
-            #include("views/modulos/count.php");
+        #include("views/modulos/count.php");
         ?>
         <!-- End Counts Section -->
 
 
         <!-- ======= productos  ======= -->
         <?php
-          include("views/modulos/productos.php");
+        include("views/modulos/productos.php");
         ?>
         <!--  productos  -->
 
 
         <!-- ======= Publicaciones ======= -->
         <?php
-            include("views/modulos/publicaciones.php");
+        include("views/modulos/publicaciones.php");
         ?>
         <!--  publicaciones  -->
 
 
         <!-- ======= Directorio principal ======= -->
         <?php
-            #include("views/modulos/directorio.php");
+        #include("views/modulos/directorio.php");
         ?>
         <!-- Directorio principal -->
 
         <!-- ======= Directorio Directivos ======= -->
         <?php
-            #include("views/modulos/directivos.php");
+        #include("views/modulos/directivos.php");
         ?>
         <!-- Directorio Directivos -->
 
 
         <!-- ======= Why Us Section ======= -->
         <?php
-            #include("views/modulos/whyus.php");
+        #include("views/modulos/whyus.php");
         ?>
         <!-- ======= End Why Us Section ======= -->
 
 
         <!-- ======= Testimonials  ======= -->
         <?php
-            include("views/modulos/testimonios.php");
+        include("views/modulos/testimonios.php");
         ?>
         <!-- End Testimonials Section -->
+        <!-- ======= Solicita ahora ======= -->
+        <section id="superate" class="cta">
+            <div class="container" data-aos="zoom-in">
+                <div class="text-center">
+                    <h3>¡¡ Impulsa el futuro de tu hijo(a) con Supérate y Fundación BBVA !!</h3>
+                    <p> ¿Sabías que tu hijo(a) puede acceder a recursos educativos gratuitos de alto nivel?
+                    </p>
+                </div>
+                <div class="text-center">
+                    <img src="assets/img/superatebbva.png" width="35%" height="35%" style="align-items: center;">
+                    <br>
+                    <a class="cta-btn" href="https://forms.gle/nuMmwy2tmGTSAsb8A">Regístrate Aquí</a>
+                
+                </div>
+
+
+            </div>
+        </section>
 
         <?php
-            include_once("modulos/video-promo.php");
+        include_once("modulos/video-promo.php");
         ?>
 
         <!-- ======= Solicita ahora ======= -->
@@ -129,7 +147,7 @@
 
         <!-- ======= contacto Section ======= -->
         <?php
-            include("views/modulos/contact.php");
+        include("views/modulos/contact.php");
         ?>
         <!-- End contacto Section -->
 
@@ -138,13 +156,13 @@
 
     <!-- ======= Footer ======= -->
     <?php
-        include("views/modulos/footer.php");
+    include("views/modulos/footer.php");
     ?>
     <!-- End Footer -->
- 
+
     <!-- scripts Footer -->
     <?php
-        include("views/modulos/scripts_footer.php");
+    include("views/modulos/scripts_footer.php");
     ?>
     <!-- scripts Footer -->
 
@@ -158,8 +176,6 @@
     var myModal = document.getElementById('Aviso-Fraude-Modal');
     var modal = bootstrap.Modal.getOrCreateInstance(myModal)
     modal.show()
-
-
 </script>
 
 </html>
