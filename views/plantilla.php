@@ -107,7 +107,8 @@ include("./get_env.php");
         include("views/modulos/testimonios.php");
         ?>
         <!-- End Testimonials Section -->
-        <!-- ======= Solicita ahora ======= -->
+
+        <!-- ======= programa bbva======= -->
         <section id="superate" class="cta">
             <div class="container" data-aos="zoom-in">
                 <div class="text-center">
@@ -138,7 +139,7 @@ include("./get_env.php");
                     <h3>Solicita tu Crédito Ahora</h3>
                     <p> Llévate tu Mototaxi Fácil y Rápido con pagos Quincenales y hasta 2 años de financiamiento.
                     </p>
-                    <a class="cta-btn" href="#">Solicitar Crédito</a>
+                    <a class="cta-btn" href="mntto/">Solicitar Crédito</a>
                 </div>
 
             </div>

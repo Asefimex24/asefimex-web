@@ -21,13 +21,13 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Sitios de interés</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.piaggiomx.com/" target="_blank">PiaggioMX</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.condusef.gob.mx/" target="_blank">Condusef</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.cnbv.gob.mx/" target="_blank">CNBV</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="https://prodesarrollo.org/" target="_blank">Prodesarrollo</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="https://asofom.mx/" target="_blank">Asofom</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.circulodecredito.com.mx/home" target="_blank">Circulo de Crédito</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="http://www.buro.gob.mx" target="_blank">Buró de Entidades Financieras</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="mntto/" >PiaggioMX</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="mntto/" >Condusef</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="mntto/" >CNBV</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="mntto/" >Prodesarrollo</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="mntto/" >Asofom</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="mntto/" >Circulo de Crédito</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="mntto/" >Buró de Entidades Financieras</a></li>
 
                     </ul>
                 </div>
@@ -35,7 +35,7 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Marco Legal</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="../aviso/">Aviso de Privacidad</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="mntto/" >Aviso de Privacidad</a></li>
                     </ul>
                 </div>
 

@@ -13,7 +13,7 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
-                <li><a class="nav-link scrollto" href="#products">Productos</a></li>
+                <li><a class="nav-link scrollto" href="mntto/">Productos</a></li>
                 <li><a class="nav-link scrollto" href="#pubs">Publicaciones</a></li>
                 <!-- <li class="dropdown"><a href="#"><span>Directorio</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
@@ -25,14 +25,14 @@
                 <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
                 <li class="dropdown"><a href="#"><span>Acerca de</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="./nosotros/">Nosotros</a></li>
-                        <li><a href="./nosotros/#sucursales">Sucursales</a></li>
-                        <li><a href="./nosotros/#certificaciones">Certificaciones</a></li>
-                        <li><a href="./nosotros/#alianzas">Alianzas Estratégicas</a></li>
-                        <li><a href="./nosotros/#bolsa">Bolsa de Trabajo</a></li>
-                        <li><a href="./aviso/">Aviso de Privacidad</a></li>
-                        <li><a href="./une/">Aviso UNE</a></li>
-                        <li><a href="./buro-entidades/">Buró Entidades Financieras</a></li>
+                        <li><a href="mntto/">Nosotros</a></li>
+                        <li><a href="mntto/">Sucursales</a></li>
+                        <li><a href="mntto/">Certificaciones</a></li>
+                        <li><a href="mntto/">Alianzas Estratégicas</a></li>
+                        <li><a href="mntto/">Bolsa de Trabajo</a></li>
+                        <li><a href="mntto/">Aviso de Privacidad</a></li>
+                        <li><a href="mntto/">Aviso UNE</a></li>
+                        <li><a href="mntto/">Buró Entidades Financieras</a></li>
 
                     </ul>
                 </li>

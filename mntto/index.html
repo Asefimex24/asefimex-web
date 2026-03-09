@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mantenimiento | Asefimex</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --asefimex-orange: #FF7B00; /* Naranja principal */
+            --asefimex-orange-dark: #E66F00;
+            --asefimex-white: #ffffff;
+            --asefimex-light: #fff5eb; /* Fondo sutilmente naranja */
+        }
+
+        body {
+            background-color: var(--asefimex-light);
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+
+        .maintenance-card {
+            background: var(--asefimex-white);
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(255, 123, 0, 0.15);
+            padding: 3.5rem 2rem;
+            max-width: 550px;
+            text-align: center;
+            border-bottom: 8px solid var(--asefimex-orange);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Adorno visual superior */
+        .maintenance-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--asefimex-orange), #ffb366);
+        }
+
+        .logo-maint {
+            max-width: 200px;
+            margin-bottom: 2rem;
+            /* Filtro para asegurar que el logo se vea bien sobre blanco */
+            filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.05));
+        }
+
+        .icon-wrapper {
+            background-color: var(--asefimex-orange);
+            color: white;
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            border-radius: 50%;
+            font-size: 2.5rem;
+            margin: 0 auto 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 5px 15px rgba(255, 123, 0, 0.3);
+        }
+
+        h1 {
+            color: #333;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            margin-bottom: 1rem;
+        }
+
+        .status-badge {
+            background-color: var(--asefimex-orange);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin-bottom: 1.5rem;
+        }
+
+        p.description {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-section {
+            border-top: 1px solid #eee;
+            padding-top: 2rem;
+        }
+
+        .contact-link {
+            color: var(--asefimex-orange);
+            text-decoration: none;
+            font-weight: 700;
+            transition: 0.3s;
+        }
+
+        .contact-link:hover {
+            color: var(--asefimex-orange-dark);
+            text-decoration: underline;
+        }
+
+        .btn-orange {
+            background-color: var(--asefimex-orange);
+            border: none;
+            color: white;
+            font-weight: 600;
+            padding: 12px 25px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-orange:hover {
+            background-color: var(--asefimex-orange-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 123, 0, 0.4);
+            color: white;
+        }
+
+        .social-icons a {
+            color: #888;
+            font-size: 1.4rem;
+            margin: 0 12px;
+            transition: 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: var(--asefimex-orange);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container d-flex justify-content-center" style="height: 85%;">
+        <div class="maintenance-card px-4">
+            
+            <img src="../assets/img/logo-vertical.png" alt="Asefimex" class="logo-maint">
+            
+            <div class="icon-wrapper">
+                <i class="fas fa-hammer"></i>
+            </div>
+
+            <div class="status-badge">SITIO EN ACTUALIZACIÓN</div>
+            
+            <h1>¡Volveremos pronto!</h1>
+            
+            <p class="description">
+                Estamos realizando mejoras técnicas en nuestra plataforma para brindarte un mejor servicio financiero. 
+                Agradecemos tu paciencia.
+            </p>
+
+            <div class="contact-section">
+
+            </div>
+
+
+            <p class="mt-4 mb-0 x-small text-muted" style="font-size: 0.75rem;">
+                &copy; 2026 Asefimex Financiera. Todos los derechos reservados.
+            </p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
