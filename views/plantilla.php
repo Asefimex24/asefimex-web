@@ -119,7 +119,7 @@ include("./get_env.php");
                 <div class="text-center">
                     <img src="assets/img/superatebbva.png" width="35%" height="35%" style="align-items: center;">
                     <br>
-                    <a class="cta-btn" href="https://forms.gle/nuMmwy2tmGTSAsb8A">Regístrate Aquí</a>
+                    <a class="cta-btn" href="https://forms.gle/nuMmwy2tmGTSAsb8A">Regístrate Aquí, ¡es gratis!</a>
                 
                 </div>
 
