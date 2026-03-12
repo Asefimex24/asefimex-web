@@ -56,7 +56,9 @@ include("./get_env.php");
 
         <!-- ======= About Section ======= -->
         <?php
-        include("views/modulos/solicitud.php");
+            
+            #include("views/modulos/solicitud.php");
+            include("views/modulos/prod-galeria.php");
         ?>
         <!-- ======= About Section ======= -->
 
@@ -177,6 +179,20 @@ include("./get_env.php");
     var myModal = document.getElementById('Aviso-Fraude-Modal');
     var modal = bootstrap.Modal.getOrCreateInstance(myModal)
     modal.show()
+</script>
+
+<script>
+    
+    var myCarousel = document.getElementById('simpleCardCarousel')
+    myCarousel.addEventListener('slid.bs.carousel', function () {
+        const activeCards = this.querySelectorAll('.carousel-item.active .animate__animated');
+        activeCards.forEach(card => {
+            card.classList.remove('animate__flipInY');
+            void card.offsetWidth; // Reset animación
+            card.classList.add('animate__flipInY');
+        });
+    })
+
 </script>
 
 </html>
