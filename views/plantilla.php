@@ -72,7 +72,7 @@ include("./get_env.php");
 
         <!-- ======= productos  ======= -->
         <?php
-        include("views/modulos/productos.php");
+            #include("views/modulos/productos.php");
         ?>
         <!--  productos  -->
 
@@ -106,7 +106,7 @@ include("./get_env.php");
 
         <!-- ======= Testimonials  ======= -->
         <?php
-        include("views/modulos/testimonios.php");
+            include("views/modulos/testimonios.php");
         ?>
         <!-- End Testimonials Section -->
 

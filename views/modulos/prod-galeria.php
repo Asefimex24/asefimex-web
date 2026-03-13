@@ -1,4 +1,4 @@
-<section id="about" class="contact section-bg">
+<section id="products" class="contact section-bg">
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -66,7 +66,7 @@
                             <div class="col-10 col-md-4 col-lg-3">
                                 <div class="card h-100 border-orange shadow-sm animate__animated animate__flipInY product-card">
                                     <!-- cuerpo de la tarjeta -->
-                                    <img src="assets/img/products/auto.jpeg" class="card-img-top" alt="C-AUTO">
+                                    <img src="assets/img/products/especial.jpeg" class="card-img-top" alt="C-AUTO">
                                     <div class="card-body text-center">
                                         <h5 class="fw-bold mb-0">C-ESPECIAL</h5>
                                         <small class="text-muted">Pasa el mouse para más info</small>
@@ -90,7 +90,7 @@
                             <div class="col-10 col-md-4 col-lg-3">
                                 <div class="card h-100 border-orange shadow-sm animate__animated animate__flipInY product-card">
                                     <!-- cuerpo de la tarjeta -->
-                                    <img src="assets/img/products/test3.jpg" class="card-img-top" alt="C-Móvil">
+                                    <img src="assets/img/products/emprende.jpeg" class="card-img-top" alt="C-Móvil">
                                     <div class="card-body text-center">
                                         <h5 class="fw-bold mb-0">C-EMPRENDEDOR</h5>
                                         <small class="text-muted">Pasa el mouse para más info</small>
@@ -120,7 +120,7 @@
                             <div class="col-10 col-md-4 col-lg-3">
                                 <div class="card h-100 border-orange shadow-sm animate__animated animate__flipInY product-card">
                                     <!-- cuerpo de la tarjeta -->
-                                    <img src="assets/img/products/test3.jpg" class="card-img-top" alt="C-Móvil">
+                                    <img src="assets/img/products/cosecha.jpeg" class="card-img-top" alt="C-Móvil">
                                     <div class="card-body text-center">
                                         <h5 class="fw-bold mb-0">C-COSECHA</h5>
                                         <small class="text-muted">Pasa el mouse para más info</small>
@@ -144,7 +144,7 @@
                             <div class="col-10 col-md-4 col-lg-3">
                                 <div class="card h-100 border-orange shadow-sm animate__animated animate__flipInY product-card">
                                     <!-- cuerpo de la tarjeta -->
-                                    <img src="assets/img/products/test3.jpg" class="card-img-top" alt="C-Móvil">
+                                    <img src="assets/img/products/liquidez.jpeg" class="card-img-top" alt="C-Móvil">
                                     <div class="card-body text-center">
                                         <h5 class="fw-bold mb-0">C-LIQUIDEZ</h5>
                                         <small class="text-muted">Pasa el mouse para más info</small>
@@ -169,7 +169,7 @@
                             <div class="col-10 col-md-4 col-lg-3">
                                 <div class="card h-100 border-orange shadow-sm animate__animated animate__flipInY product-card">
                                     <!-- cuerpo de la tarjeta -->
-                                    <img src="assets/img/products/test3.jpg" class="card-img-top" alt="C-Móvil">
+                                    <img src="assets/img/products/mujer.jpeg" class="card-img-top" alt="C-Móvil">
                                     <div class="card-body text-center">
                                         <h5 class="fw-bold mb-0">C-MUJER</h5>
                                         <small class="text-muted">Pasa el mouse para más info</small>
@@ -194,7 +194,7 @@
                             <div class="col-10 col-md-4 col-lg-3">
                                 <div class="card h-100 border-orange shadow-sm animate__animated animate__flipInY product-card">
                                     <!-- cuerpo de la tarjeta -->
-                                    <img src="assets/img/products/test3.jpg" class="card-img-top" alt="C-Móvil">
+                                    <img src="assets/img/products/credicont.jpeg" class="card-img-top" alt="C-Móvil">
                                     <div class="card-body text-center">
                                         <h5 class="fw-bold mb-0">CREDICONTADO</h5>
                                         <small class="text-muted">Pasa el mouse para más info</small>
@@ -224,7 +224,7 @@
                             <div class="col-10 col-md-4 col-lg-3">
                                 <div class="card h-100 border-orange shadow-sm animate__animated animate__flipInY product-card">
                                     <!-- cuerpo de la tarjeta -->
-                                    <img src="assets/img/products/test3.jpg" class="card-img-top" alt="C-Móvil">
+                                    <img src="assets/img/products/distrib.jpeg" class="card-img-top" alt="C-Móvil">
                                     <div class="card-body text-center">
                                         <h5 class="fw-bold mb-0">C-DISTRIBUIDOR</h5>
                                         <small class="text-muted">Pasa el mouse para más info</small>
@@ -248,7 +248,7 @@
                             <div class="col-10 col-md-4 col-lg-3">
                                 <div class="card h-100 border-orange shadow-sm animate__animated animate__flipInY product-card">
                                     <!-- cuerpo de la tarjeta -->
-                                    <img src="assets/img/products/test3.jpg" class="card-img-top" alt="C-Móvil">
+                                    <img src="assets/img/products/auto.jpeg" class="card-img-top" alt="C-Móvil">
                                     <div class="card-body text-center">
                                         <h5 class="fw-bold mb-0">C-AUTO</h5>
                                         <small class="text-muted">Pasa el mouse para más info</small>
