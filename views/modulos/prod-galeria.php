@@ -27,9 +27,12 @@
                                             <h6 class="fw-bold">Crédito C-MOVIL</h6>
                                             <hr class="border-light">
                                             <ul class="list-unstyled small text-start">
-                                                <li><i class="fas fa-bolt"></i> Aprobación inmediata</li>
-                                                <li><i class="fas fa-mobile-alt"></i> Control desde tu cel</li>
-                                                <li><i class="fas fa-percentage"></i> Tasa preferencial</li>
+                                                <li><strong>Plazos:</strong> 6 -36 Meses</li>
+                                                <li><strong>Montos:</strong> 20,000 a 90,000 Pesos</li>
+                                                <li><strong>Requisitos:</strong> Identificación oficial, comprobante de domicilio y estado de cuenta </li>
+                                                <li><strong>*Tasa de interés anual:</strong> 81%</li>
+                                                <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 45%</li>
+                                                <li><strong>*Comisión por apertura:</strong> 1 - 2 %</li>
                                             </ul>
                                             <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
                                         </div>
@@ -49,12 +52,15 @@
                                     <!-- Overlay de información -->
                                     <div class="card-overlay" style="border-radius: 12px;">
                                         <div class="overlay-content p-3">
-                                            <h6 class="fw-bold">Crédito C-MOVIL</h6>
+                                            <h6 class="fw-bold">Crédito C-MOTOCICLETA</h6>
                                             <hr class="border-light">
                                             <ul class="list-unstyled small text-start">
-                                                <li><i class="fas fa-bolt"></i> Aprobación inmediata</li>
-                                                <li><i class="fas fa-mobile-alt"></i> Control desde tu cel</li>
-                                                <li><i class="fas fa-percentage"></i> Tasa preferencial</li>
+                                                <li><strong>Plazos:</strong> 3 - 24 Meses</li>
+                                                <li><strong>Montos:</strong> 10,000 a 80,000 Pesos</li>
+                                                <li><strong>Requisitos:</strong> Identificación oficial, comprobante de domicilio y estado de cuenta </li>
+                                                <li><strong>*Tasa de interés anual:</strong> 71%</li>
+                                                <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 45%</li>
+                                                <li><strong>*Comisión por apertura:</strong> 1%</li>
                                             </ul>
                                             <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
                                         </div>
@@ -74,12 +80,15 @@
                                     <!-- Overlay de información -->
                                     <div class="card-overlay" style="border-radius: 12px;">
                                         <div class="overlay-content p-3">
-                                            <h6 class="fw-bold">Crédito C-MOVIL</h6>
+                                            <h6 class="fw-bold">Crédito C-ESPECIAL</h6>
                                             <hr class="border-light">
                                             <ul class="list-unstyled small text-start">
-                                                <li><i class="fas fa-bolt"></i> Aprobación inmediata</li>
-                                                <li><i class="fas fa-mobile-alt"></i> Control desde tu cel</li>
-                                                <li><i class="fas fa-percentage"></i> Tasa preferencial</li>
+                                                <li><strong>Plazos:</strong> 1 - 60 Meses</li>
+                                                <li><strong>Montos:</strong> 10,000 a 750,000 Pesos</li>
+                                                <li><strong>Requisitos:</strong> Identificación oficial, comprobante de domicilio y estado de cuenta </li>
+                                                <li><strong>*Tasa de interés anual:</strong> 41.5%</li>
+                                                <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 45%</li>
+                                                <li><strong>*Comisión por apertura:</strong> 1 - 2 %</li>
                                             </ul>
                                             <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
                                         </div>
@@ -98,12 +107,15 @@
                                     <!-- Overlay de información -->
                                     <div class="card-overlay" style="border-radius: 12px;">
                                         <div class="overlay-content p-3">
-                                            <h6 class="fw-bold">Crédito C-MOVIL</h6>
+                                            <h6 class="fw-bold">Crédito C-EMPRENDEDOR</h6>
                                             <hr class="border-light">
                                             <ul class="list-unstyled small text-start">
-                                                <li><i class="fas fa-bolt"></i> Aprobación inmediata</li>
-                                                <li><i class="fas fa-mobile-alt"></i> Control desde tu cel</li>
-                                                <li><i class="fas fa-percentage"></i> Tasa preferencial</li>
+                                                <li><strong>Plazos:</strong> 6 - 12 Meses</li>
+                                                <li><strong>Montos:</strong> 10,000 a 750,000 Pesos</li>
+                                                <li><strong>Requisitos:</strong> Identificación oficial, comprobante de domicilio y estado de cuenta </li>
+                                                <li><strong>*Tasa de interés anual:</strong> 60.5%</li>
+                                                <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 45%</li>
+                                                <li><strong>*Comisión por apertura:</strong> 1%</li>
                                             </ul>
                                             <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
                                         </div>
@@ -128,12 +140,15 @@
                                     <!-- Overlay de información -->
                                     <div class="card-overlay" style="border-radius: 12px;">
                                         <div class="overlay-content p-3">
-                                            <h6 class="fw-bold">Crédito C-MOVIL</h6>
+                                            <h6 class="fw-bold">Crédito C-COSECHA</h6>
                                             <hr class="border-light">
                                             <ul class="list-unstyled small text-start">
-                                                <li><i class="fas fa-bolt"></i> Aprobación inmediata</li>
-                                                <li><i class="fas fa-mobile-alt"></i> Control desde tu cel</li>
-                                                <li><i class="fas fa-percentage"></i> Tasa preferencial</li>
+                                                <li><strong>Plazos:</strong> 3 - 12 Meses</li>
+                                                <li><strong>Montos:</strong> 1,500 a 50,000 Pesos</li>
+                                                <li><strong>Requisitos:</strong> Identificación oficial, comprobante de domicilio y estado de cuenta </li>
+                                                <li><strong>*Tasa de interés anual:</strong> 71%</li>
+                                                <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 45%</li>
+                                                <li><strong>*Comisión por apertura:</strong> 1%</li>
                                             </ul>
                                             <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
                                         </div>
@@ -152,12 +167,15 @@
                                     <!-- Overlay de información -->
                                     <div class="card-overlay" style="border-radius: 12px;">
                                         <div class="overlay-content p-3">
-                                            <h6 class="fw-bold">Crédito C-MOVIL</h6>
+                                            <h6 class="fw-bold">Crédito C-LIQUIDEZ</h6>
                                             <hr class="border-light">
                                             <ul class="list-unstyled small text-start">
-                                                <li><i class="fas fa-bolt"></i> Aprobación inmediata</li>
-                                                <li><i class="fas fa-mobile-alt"></i> Control desde tu cel</li>
-                                                <li><i class="fas fa-percentage"></i> Tasa preferencial</li>
+                                                <li><strong>Plazos:</strong> 3 - 6 Meses</li>
+                                                <li><strong>Montos:</strong> 5,000 a 8,000 Pesos</li>
+                                                <li><strong>Requisitos:</strong> Identificación oficial, comprobante de domicilio y estado de cuenta </li>
+                                                <li><strong>*Tasa de interés anual:</strong> 62%</li>
+                                                <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 45%</li>
+                                                <li><strong>*Comisión por apertura:</strong> No aplica</li>
                                             </ul>
                                             <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
                                         </div>
@@ -177,12 +195,15 @@
                                     <!-- Overlay de información -->
                                     <div class="card-overlay" style="border-radius: 12px;">
                                         <div class="overlay-content p-3">
-                                            <h6 class="fw-bold">Crédito C-MOVIL</h6>
+                                            <h6 class="fw-bold">Crédito C-MUJER</h6>
                                             <hr class="border-light">
                                             <ul class="list-unstyled small text-start">
-                                                <li><i class="fas fa-bolt"></i> Aprobación inmediata</li>
-                                                <li><i class="fas fa-mobile-alt"></i> Control desde tu cel</li>
-                                                <li><i class="fas fa-percentage"></i> Tasa preferencial</li>
+                                                <li><strong>Plazos:</strong> 4 -4 Meses</li>
+                                                <li><strong>Montos:</strong> 5,000 a 7,000 Pesos</li>
+                                                <li><strong>Requisitos:</strong> Identificación oficial, comprobante de domicilio y estado de cuenta </li>
+                                                <li><strong>*Tasa de interés anual:</strong> 76%</li>
+                                                <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 45%</li>
+                                                <li><strong>*Comisión por apertura:</strong> No Aplica</li>
                                             </ul>
                                             <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
                                         </div>
@@ -202,12 +223,15 @@
                                     <!-- Overlay de información -->
                                     <div class="card-overlay" style="border-radius: 12px;">
                                         <div class="overlay-content p-3">
-                                            <h6 class="fw-bold">Crédito C-MOVIL</h6>
+                                            <h6 class="fw-bold">Crédito CREDICONTADO</h6>
                                             <hr class="border-light">
                                             <ul class="list-unstyled small text-start">
-                                                <li><i class="fas fa-bolt"></i> Aprobación inmediata</li>
-                                                <li><i class="fas fa-mobile-alt"></i> Control desde tu cel</li>
-                                                <li><i class="fas fa-percentage"></i> Tasa preferencial</li>
+                                                <li><strong>Plazos:</strong> 1 - 3 Meses</li>
+                                                <li><strong>Montos:</strong> 3,000 a 80,000 Pesos</li>
+                                                <li><strong>Requisitos:</strong> Identificación oficial, comprobante de domicilio y estado de cuenta </li>
+                                                <li><strong>*Tasa de interés anual:</strong> 38%</li>
+                                                <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 45%</li>
+                                                <li><strong>*Comisión por apertura:</strong> 1 - 2 %</li>
                                             </ul>
                                             <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
                                         </div>
@@ -232,12 +256,15 @@
                                     <!-- Overlay de información -->
                                     <div class="card-overlay" style="border-radius: 12px;">
                                         <div class="overlay-content p-3">
-                                            <h6 class="fw-bold">Crédito C-MOVIL</h6>
+                                            <h6 class="fw-bold">Crédito C-DISTRIBUIDOR</h6>
                                             <hr class="border-light">
                                             <ul class="list-unstyled small text-start">
-                                                <li><i class="fas fa-bolt"></i> Aprobación inmediata</li>
-                                                <li><i class="fas fa-mobile-alt"></i> Control desde tu cel</li>
-                                                <li><i class="fas fa-percentage"></i> Tasa preferencial</li>
+                                                <li><strong>Plazos:</strong> 1 - 48 Meses</li>
+                                                <li><strong>Montos:</strong> 100,000 a 5,000,000 Pesos</li>
+                                                <li><strong>Requisitos:</strong> Identificación oficial, comprobante de domicilio y estado de cuenta </li>
+                                                <li><strong>*Tasa de interés anual:</strong> 31%</li>
+                                                <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 45%</li>
+                                                <li><strong>*Comisión por apertura:</strong> 1 - 2 %</li>
                                             </ul>
                                             <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
                                         </div>
@@ -256,12 +283,15 @@
                                     <!-- Overlay de información -->
                                     <div class="card-overlay" style="border-radius: 12px;">
                                         <div class="overlay-content p-3">
-                                            <h6 class="fw-bold">Crédito C-MOVIL</h6>
+                                            <h6 class="fw-bold">Crédito C-AUTO</h6>
                                             <hr class="border-light">
                                             <ul class="list-unstyled small text-start">
-                                                <li><i class="fas fa-bolt"></i> Aprobación inmediata</li>
-                                                <li><i class="fas fa-mobile-alt"></i> Control desde tu cel</li>
-                                                <li><i class="fas fa-percentage"></i> Tasa preferencial</li>
+                                                <li><strong>Plazos:</strong> 12 - 60 Meses</li>
+                                                <li><strong>Montos:</strong> 100,000 a 1,000,000 Pesos</li>
+                                                <li><strong>Requisitos:</strong> Identificación oficial, comprobante de domicilio y estado de cuenta </li>
+                                                <li><strong>*Tasa de interés anual:</strong> 33%</li>
+                                                <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 45%</li>
+                                                <li><strong>*Comisión por apertura:</strong> 1 - 2 %</li>
                                             </ul>
                                             <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
                                         </div>

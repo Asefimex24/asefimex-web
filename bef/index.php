@@ -20,9 +20,9 @@ include "header.php";
       <div class="container">
 
         <ol>
-          <li>Unidad Especializada de Atención a Usuarios</li>
+          <li>Buró de Entidades Financieras</li>
         </ol>
-        <h2>Aviso UNE</h2>
+        <h2>Buró</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
@@ -36,7 +36,7 @@ include "header.php";
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
 
-              <img src="../assets/img/avisoune90x60-upd.jpg" alt="">
+              <img src="../assets/img/BURO-ENT-FIN.jpg" alt="">
 
 
               <!--  <div class="swiper-wrapper align-items-center">
@@ -62,7 +62,7 @@ include "header.php";
             <div class="portfolio-info">
               <h3>Información</h3>
               <ul>
-                <li><strong>Documento</strong>: Aviso UNE</li>
+                <li><strong>Documento</strong>: Buró de Entidades Financieras</li>
                 <li><strong>Propietario</strong>: Asefimex Financiera</li>
               </ul>
             </div>

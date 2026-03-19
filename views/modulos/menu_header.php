@@ -30,9 +30,10 @@
                         <li><a href="mntto/">Certificaciones</a></li>
                         <li><a href="mntto/">Alianzas Estratégicas</a></li>
                         <li><a href="mntto/">Bolsa de Trabajo</a></li>
-                        <li><a href="mntto/">Aviso de Privacidad</a></li>
-                        <li><a href="mntto/">Aviso UNE</a></li>
-                        <li><a href="mntto/">Buró Entidades Financieras</a></li>
+                        <li><a href="aviso/">Aviso de Privacidad</a></li>
+                        <li><a href="une/">Aviso UNE</a></li>
+                        <li><a href="bef/">Buró de Entidades Financieras</a></li>
+                        
 
                     </ul>
                 </li>
