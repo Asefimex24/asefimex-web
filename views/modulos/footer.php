@@ -65,17 +65,15 @@
             <img src="<?php echo $_ENV['HOME_ROUTE']; ?>assets/img/logo-condusef.png" alt="" style="width: 100px;heigth:100px">
             
             <img src="<?php echo $_ENV['HOME_ROUTE']; ?>assets/img/logo-cnbv.png" alt="" style="width: 80px;heigth:80px">
-           
-            <img src="<?php echo $_ENV['HOME_ROUTE']; ?>assets/img/LOGO-BURO.png" alt="" style="width: 80px;heigth:80px">
+           <a href="assets/img/docs/Que-es-el-BEF.pdf" target="_blank">
+            <img src="<?php echo $_ENV['HOME_ROUTE']; ?>assets/img/LOGO-BURO.png" alt="" style="width: 80px;heigth:80px"></a>
         
         </p>
         <div class="copyright">
             <strong>
                 <span>
-                    Asesoría Financiera de México S.A. de C.V. SOFOM E.N.R, es una Sociedad Financiera de Objeto Múltiple, Entidad No Regulada, por lo que de
-                    conformidad con el Artículo 87-J de la Ley General de Organizaciones y Actividades Auxiliares de Crédito, no requiere autorización de la Secretaría
-                    de Hacienda y Crédito Público para su constitución y operación, y está sujeta a la supervisión y vigilancia de la Comisión Nacional Bancaria
-                    y de Valores.
+                    Asesoría Financiera de México S.A. de C.V. SOFOM E.N.R, es una Sociedad Financiera de Objeto Múltiple, Entidad No Regulada, para su constitución y operación no requiere autorización de la Secretaría de Hacienda y Crédito Público y está sujeta a la supervisión y vigilancia de la Comisión Nacional Bancaria y de Valores, únicamente para efectos de prevención y detección de operaciones con recursos de procedencia ilícita y financiamiento al terrorismo de conformidad con el artículo 56 de la Ley General de Organizaciones y Actividades Auxiliares de Crédito.
+                                        
                 </span>
             </strong>
         </div>

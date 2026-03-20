@@ -47,7 +47,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(255, 123, 0, 0.95); /* Naranja Asefimex con transparencia */
+        background-color: white; /* Naranja Asefimex con transparencia */
         color: white;
         display: flex;
         align-items: center;
