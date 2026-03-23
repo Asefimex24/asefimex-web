@@ -27,13 +27,13 @@
                                             <h6 class="fw-bold">Crédito C-MOVIL</h6>
                                             <hr class="border-light">
                                         <ul class="list-unstyled small text-start"  style="color: #000000;">                      
-                                                <li><strong>Plazos:</strong> 6 -36 Meses</li>                                              
+                                                <li><strong>Plazos:</strong> 6 - 36 Meses</li>                                              
                                                 <li><strong>Requisitos:</strong> Identificación oficial, comprobante de domicilio y estado de cuenta </li>
                                                 <li><strong>*Tasa de interés promedio anual:</strong> 81%</li>
                                                 <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 128.3%</li>
                                                 <li><strong>*Comisión por apertura:</strong> 1 - 2 %</li>
                                             </ul>
-                                            <img src="assets/img/logo-vertical.png" style="width: 50px; opacity: 0.5;">
+                                            <img src="assets/img/logo-vertical.png" style="width: 50px; opacity: 1;">
                                         </div>
                                     </div>
                                 </div>
@@ -60,7 +60,7 @@
                                                 <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 105.5%</li>
                                                 <li><strong>*Comisión por apertura:</strong> 1%</li>
                                             </ul>
-                                            <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
+                                            <img src="assets/img/logo-vertical.png" style="width: 50px; opacity: 1;">
                                         </div>
                                     </div>
                                 </div>
@@ -87,7 +87,7 @@
                                                 <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 53.8%</li>
                                                 <li><strong>*Comisión por apertura:</strong> 1 - 2 %</li>
                                             </ul>
-                                            <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
+                                            <img src="assets/img/logo-vertical.png" style="width: 50px; opacity: 1;">
                                         </div>
                                     </div>
                                 </div>
@@ -113,7 +113,7 @@
                                                 <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 86.8%</li>
                                                 <li><strong>*Comisión por apertura:</strong> 1%</li>
                                             </ul>
-                                            <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
+                                            <img src="assets/img/logo-vertical.png" style="width: 50px; opacity: 1;">
                                         </div>
                                     </div>
                                 </div>
@@ -145,7 +145,7 @@
                                                 <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 82.2%</li>
                                                 <li><strong>*Comisión por apertura:</strong> 1%</li>
                                             </ul>
-                                            <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
+                                            <img src="assets/img/logo-vertical.png" style="width: 50px; opacity: 1;">
                                         </div>
                                     </div>
                                 </div>
@@ -171,7 +171,7 @@
                                                 <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 84.4%</li>
                                                 <li><strong>*Comisión por apertura:</strong> No aplica</li>
                                             </ul>
-                                            <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
+                                            <img src="assets/img/logo-vertical.png" style="width: 50px; opacity: 1;">
                                         </div>
                                     </div>
                                 </div>
@@ -192,13 +192,13 @@
                                             <h6 class="fw-bold" style="color: #000000;">Crédito C-MUJER</h6>
                                             <hr class="border-light">
                                             <ul class="list-unstyled small text-start"  style="color: #000000;">
-                                                <li><strong>Plazos:</strong> 4 -4 Meses</li>                                                
+                                                <li><strong>Plazos:</strong> 1 - 4 Meses</li>                                                
                                                 <li><strong>Requisitos:</strong> Identificación oficial, comprobante de domicilio y estado de cuenta </li>
                                                 <li><strong>*Tasa de interés promedio anual:</strong> 76%</li>
                                                 <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 112.7%</li>
                                                 <li><strong>*Comisión por apertura:</strong> No Aplica</li>
                                             </ul>
-                                            <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
+                                            <img src="assets/img/logo-vertical.png" style="width: 50px; opacity: 1;">
                                         </div>
                                     </div>
                                 </div>
@@ -225,7 +225,7 @@
                                                 <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 61.9%</li>
                                                 <li><strong>*Comisión por apertura:</strong> 1 - 2 %</li>
                                             </ul>
-                                            <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
+                                            <img src="assets/img/logo-vertical.png" style="width: 50px; opacity: 1;">
                                         </div>
                                     </div>
                                 </div>
@@ -257,7 +257,7 @@
                                                 <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 38.8%</li>
                                                 <li><strong>*Comisión por apertura:</strong> 1 - 2 %</li>
                                             </ul>
-                                            <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
+                                            <img src="assets/img/logo-vertical.png" style="width: 50px; opacity: 1;">
                                         </div>
                                     </div>
                                 </div>
@@ -283,7 +283,7 @@
                                                 <li><strong>*CAT Promedio anual sin IVA y para fines informativos:</strong> 41%</li>
                                                 <li><strong>*Comisión por apertura:</strong> 1 - 2 %</li>
                                             </ul>
-                                            <img src="assets/img/logo-mini-blanco.png" style="width: 50px; opacity: 0.5;">
+                                            <img src="assets/img/logo-vertical.png" style="width: 50px; opacity: 1;">
                                         </div>
                                     </div>
                                 </div>
