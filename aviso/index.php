@@ -5,11 +5,10 @@ include "header.php";
 ?>
 
 <body>
-
   <!-- ======= Header ======= -->
   <?php
   include("../alianzas/menu-header.php");
-  require_once "../get_env.php";
+  // require_once "../get_env.php";
   ?>
   <!-- End Header -->
 
@@ -22,7 +21,7 @@ include "header.php";
         <ol>
           <li>Asefimex Financiera</li>
         </ol>
-        <h2>Aviso de Privacidad</h2>
+        <h2>Aviso de Privacidad Integral</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
@@ -35,118 +34,288 @@ include "header.php";
 
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
-
-
-              <h2>ASESORÍA FINANCIERA DE MÉXICO, S.A. DE .C.V. SOFOM ENR</h2>
-              <h3>Responsable del tratamiento de sus datos personales.</h3>
+              <h3>ASESORÍA FINANCIERA DE MÉXICO, S.A. DE .C.V. SOFOM E.N.R.</h3>
+              <!-- #################### IDENTIDAD Y DOMICILIO DEL RESPONSABLE -->
+              <h4>1. Identidad y domicilio del responsable</h4>
               <p style="text-align:justify;">
-                ASESORÍA FINANCIERA DE MÉXICO, S.A. DE C.V. SOFOM ENR, mejor conocido como ASEFIMEX con domicilio en Avenida Central Oriente No. 1487-A, Colonia Centro, C.P. 29000, Tuxtla
-                Gutiérrez, Chiapas, es responsable de recabar sus datos personales, y el uso que se le da a los mismos y de su protección
-              </p>
-
-              <p style="text-align:justify;">
-                La seguridad de su información personal es nuestra prioridad; es por ello que protegemos esta información mediante medidas de seguridad que garanticen la Confidencialidad, Integridad y
-                Disponibilidad de la información, con el objeto de evitar pérdidas, mal uso, alteración, destrucción, acceso o tratamiento no autorizado de las mismas.
-              </p>
-              <h3>
-                Finalidades del tratamiento de sus datos personales.
-              </h3>
-              <p style="text-align:justify;">
-                Su información personal será utilizada para la operación y registro de los productos que usted
-                hubiese contratado; así como para proveerle de servicios y productos financieros de acuerdo a sus
-                intereses; informarle sobre nuevos productos o servicios; informarle sobre cambios de nuestros
-                productos o servicios. Para las finalidades antes mencionadas, ASEFIMEX podrá recabar los
-                siguientes datos personales:
+                Asesoría Financiera de México, S.A. DE C.V., SOFOM, E.N.R. en adelante, “el Responsable”, con
+                domicilio en Avenida Central Oriente No. 1487-A, Col. Centro, C.P. 29000, Tuxtla Gutiérrez, Chiapas, es
+                responsable del tratamiento de sus datos personales conforme a este Aviso de Privacidad Integral mismo
+                que se pone a disposicio n de Usted en adelante, el "Titular", previo a la obtencio n y tratamiento de sus
+                datos personales; de igual forma se pone a su disposicio n el portal de internet www.asefimex.com, así
+                como el correo electro nico privacidad@asefimex.com
               </p>
               <p style="text-align:justify;">
-                a) Para Personas físicas: nombre, domicilio, CURP, RFC, edad, fecha de nacimiento, lugar de
-                nacimiento, estado civil, teléfono
+                Para efectos del presente Aviso de Privacidad Integral, en lo sucesivo el término "Titular" comprenderá
+                lo siguiente: La persona física a quien corresponden los datos personales.</p>
+
+                   <!-- ############## DATOS PERSONALES QUE RE CABAMOS -->
+              <h4>2. Datos personales que recabamos</h4>
+              <p style="text-align:justify;">
+                Para cumplir con las finalidades descritas en el presente aviso, podremos recabar las siguientes
+                categorías de datos:
               </p>
               <p style="text-align:justify;">
-                b) Personas Morales, denominación o razón social, domicilio, RFC, datos de la escritura constitutiva,
-                datos de la escritura que contiene poder otorgado a favor del representante legal, nombre del
-                representante legal, nombre de los principales accionistas, información de pago.
+
+                <li style="margin-left: 40px;">
+                  <strong>Datos de identificación:</strong> nombre completo, CURP, RFC, fecha de nacimiento, nacionalidad,
+                  firma.
+                </li>
+                <li style="margin-left: 40px;">
+                  <strong>Datos de contacto:</strong> domicilio, teléfono, correo electrónico.
+                </li>
+                <li style="margin-left: 40px;">
+                  <strong>Datos patrimoniales y financieros:</strong> ingresos, egresos, cuentas bancarias, historial crediticio,
+                  bienes, referencias personales y comerciales.
+                </li>
+                <li style="margin-left: 40px;">
+                  <strong>Datos laborales:</strong> ocupación, puesto, antigüedad, empresa donde labora.
+                </li>
+                <li style="margin-left: 40px;">
+                  <strong>Datos biométricos (en su caso):</strong> huella digital, reconocimiento facial.
+                </li>
+                <li style="margin-left: 40px;">
+                  <strong>Datos sensibles (cuando aplique):</strong> aquellos que la legislación considere como tales.
+                </li>
+
               </p>
-              <h3>
-                Transferencias de datos personales.
-              </h3>
+
+              <!-- ############### FINALIDADES DEL TRATAMIENTO -->
+              <h4> 3. Finalidades del tratamiento</h4>
+              <h4> Finalidades necesarias. </h4>
+              <p style="text-align:justify;">
+                Sus datos personales serán utilizados para:
+              </p>
+              <ul>
+                <li style="margin-left: 40px;">
+                  Verificar y confirmar su identidad, así como la autenticidad de la información que nos
+                  proporciona, incluyendo la de sus terceros autorizados, cónyuges, beneficiarios, coacreditados,
+                  referencias, garantes, obligados solidarios, avales, fiadores, vendedores u otras figuras legales
+                  que se requiera autenticar.
+                </li>
+                <li style="margin-left: 40px;">
+                  Verificar la capacidad de pago de sus prospectos y/o clientes.
+                </li>
+                <li style="margin-left: 40px;">
+                  Integrar expedientes y bases de datos necesarias para el otorgamiento y operación de los
+                  productos y/o servicios que se contraten, así como las obligaciones que se deriven de los
+                  mismos.
+                </li>
+                <li style="margin-left: 40px;">
+                  Verificar y confirmar su identidad, así como la autenticidad de la información que nos
+                  proporciona, incluyendo la de sus terceros autorizados, cónyuges, beneficiarios, coacreditados,
+                  referencias, garantes, obligados solidarios, avales, fiadores, vendedores u otras figuras legales
+                  que se requiera autenticar.
+                </li>
+                <li style="margin-left: 40px;">
+                  Integrar expedientes y bases de datos necesarias para el otorgamiento y operación de los
+                  productos y/o servicios que se contraten, así como las obligaciones que se deriven de los
+                  mismos.
+                </li>
+                <li style="margin-left: 40px;">
+                  Atender dudas, quejas, aclaraciones y requerimientos legales de diversas autoridades
+                  competentes que lo soliciten.
+                </li>
+                <li style="margin-left: 40px;">
+                  Cumplir con obligaciones legales y regulatorias aplicables.
+                </li>
+                <li style="margin-left: 40px;">
+                  Notificar por medios electrónicos, ópticos, sonoros, visuales, o a través de otras tecnologías, los
+                  cambios de condiciones en los productos y/o servicios contratados, obligaciones que se
+                  desprenden de los mismos y mantenimiento en la relación comercial.
+                </li>
+                <li style="margin-left: 40px;">
+                  Actividades complementarias necesarias para la realización de los fines anteriores.
+                </li>
+                <li style="margin-left: 40px;">
+                  Realizar actividades de cobranza derivadas del incumplimiento de la obligación contractual por
+                  los productos y/o servicios contratados, incluyendo visitas, llamadas telefónicas, envío de
+                  correos electrónicos con fines de gestión de cobranza en caso de requerirse.
+                </li>
+              </ul>
+
 
               <p style="text-align:justify;">
-                Su información personal podrá ser transferida dentro y fuera del territorio nacional con Organismos,
-                Instituciones, Empresas y Entidades de carácter público o privado, con los cuales ASEFIMEX, en
-                virtud de ser necesario para el mejoramiento y evaluaciones en los servicios y productos que
-                ASEFIMEX le brinda.
+                Asimismo, sus datos personales podrán ser utilizados para atender requerimientos de autoridades
+                competentes en términos de la Ley General en Materia de Desaparición Forzada de Personas, incluyendo
+                la entrega de información necesaria para la búsqueda, localización e identificación de personas
+                desaparecidas o no localizadas.
               </p>
-
-              <h3>
-                ¿Cómo puede acceder, rectificar o cancelar sus datos personales u oponerse a su uso?
-              </h3>
+              <h4> Finalidades Secundarias. </h4>
 
               <p style="text-align:justify;">
-                Usted tiene derecho a conocer que datos personales tenemos de usted, para qué los utilizamos y
-                las condiciones del uso de ellos (Acceso). Así mismo, es su derecho solicitar la corrección de su
-                información personal en caso de que esté desactualizada, sea inexacta o incompleta (Rectificación);
-                que la eliminemos de nuestros registros o base de datos cuando considere que la misma no está
-                siendo utilizada adecuadamente (Cancelación); así como oponerse al uso de sus datos personales
-                para fines específicos (Oposición). Estos derechos se conocen como derechos ARCO.
+                Adicionalmente, podremos usar sus datos para:
               </p>
 
-              <p>
-                Para ello es necesario que presente su petición a través de los siguientes medios:
-              </p>
-
-              <p>
-                1.- Presentándose en la Av. Central Oriente No. 1487-A, Col. Centro, Tuxtla Gutiérrez, Chiapas ó,
-              </p>
-
-              <p>
-                2.- Llamando al número de teléfono 961 6147676.
-              </p>
-
-              <h3>
-                Revocación de consentimiento para el uso de sus datos personales.
-              </h3>
+              <ul>
+                <li style="margin-left: 40px;">
+                  Ofrecer productos y servicios financieros.
+                </li>
+                <li style="margin-left: 40px;">
+                  Enviar publicidad y promociones.
+                </li>
+                <li style="margin-left: 40px;">
+                  Realizar encuestas de calidad.
+                </li>
+              </ul>
 
               <p style="text-align:justify;">
-                Usted puede revocar el consentimiento que, en su caso, nos haya otorgado para el tratamiento de
-                sus datos personales. Sin embargo, es importante que tenga en cuenta que no en todos los casos
-                podremos atender su solicitud o concluir el uso de forma inmediata, ya que es posible que por alguna
-                obligación legal requiramos seguir tratando sus datos personales. Así mismo, usted deberá
-                considerar que para ciertos fines, la revocación de su consentimiento implicará que no le podamos
-                seguir prestando el servicio que nos solicitó, o la conclusión de su relación con nosotros.
+                Usted puede oponerse a las finalidades secundarias conforme a este aviso.
+              </p>
+
+              <!-- ################ TRANSFERENCIAS DE DATOS -->
+              <h4>4. Transferencias de datos</h4>
+              <p style="text-align:justify;">
+                Sus datos personales podrán ser transferidos sin requerir su consentimiento a:
+              </p>
+              <h4>Transferencias de datos personales</h4>
+              <p style="text-align:justify;">
+                El titular de datos personales que mantenga productos y/o servicios y/o entable relación jurídica con “el
+                Responsable”, consiente la transferencia de sus datos personales dentro y fuera de México en los
+                términos que se describen. “El Responsable” se compromete a velar porque se cumplan todos los
+                principios legales de protección en torno a la transferencia de sus datos personales y manifiesta su
+                compromiso para que se respete en todo momento, por nosotros y por nuestros proveedores el presente
+                aviso de privacidad y las finalidades que el titular sujetó su tratamiento.
+              </p>
+              <ul>
+                <li style="margin-left: 40px;">
+                  Autoridades financieras, fiscales y judiciales.
+                </li>
+                <li style="margin-left: 40px;">
+                  Sociedades de información crediticia.
+                </li>
+                <li style="margin-left: 40px;">
+                  Proveedores de servicios necesarios para la operación.
+                </li>
+                <li style="margin-left: 40px;">
+                  Entidades del mismo grupo corporativo.
+                </li>
+              </ul>
+              <p style="text-align:justify;">
+                También se podra n realizar transferencias a terceros, como el Instituto Nacional Electoral (INE),
+                Secretarí a de Relaciones Exteriores (SRE), al Registro Nacional de Poblacio n (RENAPO), u otra autoridad
+                financiera o fiscal mexicanas o dependencia federal que provea un servicio de verificacio n de informacio n
+                personal y/o biome trica similar al de dicho Instituto o la referida Secretarí a, con la finalidad de verificar
+                la coincidencia de los datos incluyendo biome tricos proporcionados por el cliente, en te rminos de lo
+                establecido en la regulacio n aplicable para combatir el robo de identidad.
+              </p>
+              <p style="text-align:justify;">
+                Adicionalmente, sus datos podrán ser transferidos a autoridades competentes para el cumplimiento de
+                obligaciones previstas en la Ley General en Materia de Desaparición Forzada de Personas y demás
+                disposiciones aplicables, cuando dichas autoridades lo requieran de manera fundada y motivada.
+              </p>
+              <p style="text-align:justify;">
+                Le informamos que sus datos personales podrán ser transferidos sin su consentimiento a terceros dentro
+                y fuera de México, de acuerdo a los supuestos contemplados en el artículo 36 de la LFPDPPP, los cuales
+                son los siguientes:
               </p>
 
               <p style="text-align:justify;">
-                Para conocer el procedimiento y requisitos para revocar su consentimiento ponemos a su disposición
-                el número de teléfono 961 6147676. </p>
-              <p>
-                Para revocar su consentimiento deberá presentar su solicitud a través de los siguientes medios:
+                <li style="margin-left: 40px;">
+                  <strong>a)</strong> La transferencia esté prevista en una ley o tratado en los que México sea parte.
+                </li>
+                <li style="margin-left: 40px;">
+                  <strong>b)</strong> Sea necesaria para la prevención o diagnóstico médico, la prestación de asistencia sanitaria,
+                  tratamiento médico o gestión de servicios sanitarios.
+                </li>
+                <li style="margin-left: 40px;">
+                  <strong>c)</strong> Sea efectuada a sociedades controladoras, subsidiarias o afiliadas bajo el control común de “el Responsable”, o a una sociedad matriz o cualquier sociedad del mismo grupo de “la Responsable”
+                  que opere bajo los mismos procesos y políticas internas.
+                </li>
+                <li style="margin-left: 40px;">
+                  <strong>d)</strong> Sea necesaria por virtud de un contrato celebrado o por celebrar en interés del titular, por “el Responsable” y un tercero.
+                </li>
+                <li style="margin-left: 40px;">
+                  <strong>e)</strong> Sea necesaria para el mantenimiento o cumplimiento de una relación jurídica entre “el
+                  Responsable” y el titular.
+                </li>
+                <li style="margin-left: 40px;">
+                  <strong>f)</strong> Sea legalmente exigida para la salvaguarda de un interés público, o para la procuración o
+                  administración de justicia.
+                </li>
+                <li style="margin-left: 40px;">
+                  <strong>g)</strong> Sea precisa para el reconocimiento, ejercicio o reconocimiento de un derecho en un proceso
+                  judicial.
+                </li>
               </p>
-              <p>
-                1.- Presentándose en la Av. Central Oriente No. 1487-A, Col. Centro, Tuxtla Gutiérrez, Chiapas ó,
-              </p>
-              <p>2.- Llamando al número telefónico 961 6147676</p>
 
               <p style="text-align:justify;">
-                Así también, le informamos que usted tiene derecho a iniciar un Procedimiento de Protección de
-                Datos ante el Instituto Federal de Acceso a la Información y Protección de Datos (www.ifai.gob.mx)
-                dentro de los 15 días siguientes a la fecha en que reciba la respuesta de ASEFIMEX a partir de que
-                concluya el plazo de 20 días contados a partir de la fecha de recepción de su solicitud de ejercicio
-                de derechos
+                En caso de transferencias que requieran consentimiento, se solicitará previamente.
               </p>
-              <h3>
-                Modificaciones al aviso de privacidad.
-              </h3>
+
+              <!-- #################### DERECHOS ARCO -->
+              <h4>5. Derechos ARCO</h4>
               <p style="text-align:justify;">
-                El presente aviso de privacidad puede sufrir modificaciones, cambios o actualizaciones derivadas de
-                nuevos requerimientos legales, de nuestras propias necesidades por los productos o servicios que
-                ofrecemos, de nuestras prácticas de privacidad, de cambios en nuestro modelo de negocio o por
-                otras causas.
+                Usted tiene derecho a:
               </p>
+              <ul>
+                <li style="margin-left: 40px;">
+                  Acceso
+                </li>
+                <li style="margin-left: 40px;">
+                  Rectificación
+                </li>
+                <li style="margin-left: 40px;">
+                  Cancelación
+                </li>
+                <li style="margin-left: 40px;">
+                  Oposición
+                </li>
+              </ul>
               <p style="text-align:justify;">
-                Estas modificaciones estarán disponibles al público a través de nuestra página de
-                internet www.asefimex.com
+                Para ejercer sus derechos, deberá enviar una solicitud a: privacidad@asefimex.com
               </p>
+
+              <!-- #################### REVOCACIÓN DEL CONSENTIMIENTO -->
+              <h4>6. Revocación del consentimiento</h4>
+              <p style="text-align:justify;">
+                El titular o su representante legal pueden revocar el consentimiento que nos haya otorgado para el
+                tratamiento de sus datos personales conforme al procedimiento de derechos ARCO. Sin embargo, es muy
+                importante que tenga en cuenta que no en todos los casos podremos atender su solicitud o concluir el
+                uso de forma inmediata, ya que es posible que por alguna obligación legal requiramos seguir tratando
+                sus datos personales.
+              </p>
+
+              <!-- #################### LIMITACIÓN DEL USO O DIVULGACIÓN -->
+              <h4>7. Limitación del uso o divulgación</h4>
+              <p style="text-align:justify;">
+                Puede solicitar su inscripción en listados de exclusión enviando un correo a: privacidad@asefimex.com
+              </p>
+
+              <!-- #################### USO DE COOKIES Y TECNOLOGÍAS -->
+              <h4>8. Uso de cookies y tecnologías</h4>
+              <p style="text-align:justify;">
+                El sitio web puede utilizar cookies para mejorar la experiencia del usuario.
+              </p>
+
+              <!-- #################### MEDIDAS DE SEGURIDAD -->
+              <h4>9. Medidas de seguridad</h4>
+              <p style="text-align:justify;">
+                Se implementan medidas administrativas, técnicas y físicas para proteger sus datos personales.
+              </p>
+
+              <!-- #################### CAMBIOS AL AVISO DE PRIVACIDAD -->
+              <h4>10. Cambios al aviso de privacidad</h4>
+              <p style="text-align:justify;">
+                "El Responsable" se reserva el derecho de efectuar en cualquier momento, modificaciones en las
+                presentes políticas de privacidad y adaptarla a nuevos requerimientos legales, a las propias necesidades
+                por los productos o servicios que ofrece, de las prácticas de privacidad, de cambios en el modelo de
+                negocio o por otras causas.
+                El "Titular" está de acuerdo y conforme en que cualquier cambio a las políticas de privacidad se notifique
+                mediante su publicación en el portal de internet www.asefimex.com
+                Es obligación del "Titular" visitar periódicamente dicho sitio a fin de verificar la versión más actual del
+                Aviso de Privacidad.
+              </p>
+
+              <!-- #################### CONSENTIMIENTO -->
+              <h4>11. Consentimiento</h4>
+              <p style="text-align:justify;">
+                Al proporcionar sus datos personales, usted consiente su tratamiento conforme a este Aviso de
+                Privacidad.
+                En caso de inconformidad podra acudir a la Secretarí a Anticorrupcio n y Buen Gobierno y/o consultar su
+                pa gina electro nica www.gob.mx/buengobierno
+              </p>
+
 
 
               <!--  <div class="swiper-wrapper align-items-center">
@@ -172,17 +341,14 @@ include "header.php";
             <div class="portfolio-info">
               <h3>Información</h3>
               <ul>
-                <li><strong>Documento</strong>: Aviso de Privacidad</li>
+                <li><strong>Documento</strong>: Aviso de Privacidad Integral</li>
                 <li><strong>Propietario</strong>: Asefimex Financiera</li>
               </ul>
             </div>
             <!-- <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
+              <h2>Detalles del tema</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.
-                Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia
-                accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt
-                eius.
+                Parrafo del tema principal, se puede agregar mas información sobre el tema, o un resumen del mismo, o una introducción al tema, lo que se considere necesario para complementar la información del tema principal.
               </p>
             </div> -->
           </div>
@@ -202,8 +368,8 @@ include "header.php";
   <!-- End Footer -->
 
   <?php
-    // include "scripts_footer.php";
-    // include("../views/modulos/scripts_footer.php");
+  // include "scripts_footer.php";
+  // include("../views/modulos/scripts_footer.php");
   ?>
 
 </body>
