@@ -25,8 +25,8 @@
                 <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
                 <li class="dropdown"><a href="#"><span>Acerca de</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="mntto/">Nosotros</a></li>
-                        <li><a href="mntto/">Sucursales</a></li>
+                        <li><a href="nosotros/">Nosotros</a></li>
+                        <li><a href="nosotros">Sucursales</a></li>
                         <li><a href="mntto/">Certificaciones</a></li>
                         <li><a href="mntto/">Alianzas Estratégicas</a></li>
                         <li><a href="mntto/">Bolsa de Trabajo</a></li>

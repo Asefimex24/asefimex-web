@@ -23,8 +23,8 @@ require_once("../get_env.php");
   <?php
   include("../alianzas/menu-header.php");
   ?>
+  
   <!-- End Header -->
-
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->

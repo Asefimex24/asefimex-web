@@ -28,7 +28,6 @@
                         <li><a href="../nosotros/#bolsa">Bolsa de Trabajo</a></li>                        
                         <li><a href="../aviso/">Aviso de Privacidad</a></li>
                         <li><a href="../une/">Aviso UNE</a></li>
-                        <li><a href="../buro-entidades/">Buró de Entidades Financieras</a></li>
                     </ul>
                 </li>
 

@@ -7,9 +7,7 @@
         </div>
 
         <div class="row">
-
             <?php
-
             $certificaciones = Control_Certificacion::Ctr_getCertificaciones();
 
             foreach ($certificaciones as $key => $publi_value) { ?>
