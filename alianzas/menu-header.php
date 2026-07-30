@@ -31,7 +31,7 @@
                     </ul>
                 </li>
 
-                <li><a class="getstarted scrollto" href="#about">Quiero un Crédito</a></li>
+                <li><a class="getstarted scrollto" href="https://asefimex.lightia.mx/client" target="_blank">Registro Cliente</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->

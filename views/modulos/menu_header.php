@@ -38,7 +38,7 @@
                     </ul>
                 </li>
 
-                <li><a class="getstarted scrollto" href="https://asefimex.com/login-prospectos/" target="_blank">Acceso Cliente</a></li>
+                <li><a class="getstarted scrollto" href="https://asefimex.lightia.mx/client" target="_blank">Registro Cliente</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
