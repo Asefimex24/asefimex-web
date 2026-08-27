@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <?php
-include "header.php";
+  require_once '../get_env.php';
+  include "../views/modulos/header.php";
 ?>
 
 <body>
-
+    <?php include '../views/modulos/wap-icon.php'; ?>
   <!-- ======= Header ======= -->
   <?php
-    require_once "../get_env.php";
+    
     include('../views/modulos/menu-header.php');
    
   ?>
@@ -37,7 +38,7 @@ include "header.php";
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
 
-              <img src="../assets/img/avisoune90x60-upd.jpg" alt="">
+              <img src="<?php echo $_ENV['HOME_ROUTE']; ?>assets/img/aviso-une-26-Junio.png" alt="">
 
 
               <!--  <div class="swiper-wrapper align-items-center">
@@ -91,11 +92,6 @@ include "header.php";
   ?>
 
   <!-- End Footer -->
-
-  <?php
-    // include "scripts_footer.php";
-    // include("../views/modulos/scripts_footer.php");
-  ?>
 
 </body>
 
