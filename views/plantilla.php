@@ -11,6 +11,7 @@ $testimonios = Control_testimonio::Ctr_getTestimonios();
 $productos = Control_productos::ctr_getProductos();
 include("./get_env.php");
 ?>
+
 <style>
     .float-wa {
         position: fixed;
@@ -79,7 +80,7 @@ include("./get_env.php");
 
         <!-- ======= Publicaciones ======= -->
         <?php
-        include("views/modulos/publicaciones.php");
+            // include("views/modulos/publicaciones.php");
         ?>
         <!--  publicaciones  -->
 
