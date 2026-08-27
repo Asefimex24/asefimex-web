@@ -27,7 +27,7 @@
                         <li><i class="bx bx-chevron-right"></i> <a href="https://www.prodesarrollo.org" target="_blank" >Prodesarrollo</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="https://www.asofom.mx" target="_blank" >Asofom</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="https://www.circulodecredito.com.mx" target="_blank" >Circulo de Crédito</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="assets/docs/Que-es-el-BEF.pdf" target="_blank">Buró de Entidades Financieras</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?php echo $_ENV['HOME_ROUTE']; ?>assets/docs/Que-es-el-BEF.pdf" target="_blank">Buró de Entidades Financieras</a></li>
 
                     </ul>
                 </div>
@@ -35,7 +35,7 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Marco Legal</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="aviso/" >Aviso de Privacidad</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?php echo $_ENV['HOME_ROUTE']; ?>aviso/" >Aviso de Privacidad</a></li>
                     </ul>
                 </div>
 

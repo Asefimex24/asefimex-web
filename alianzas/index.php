@@ -20,11 +20,7 @@ if (isset($_GET['al'])) {
         <?php include '../views/modulos/wap-icon.php'; ?>
 
         <!-- ======= Header ======= -->
-        <?php
-
-          include('../views/modulos/menu-header.php');
-
-        ?>
+        <?php include('../views/modulos/menu-header.php'); ?>
 
         <!-- End Header -->
 
@@ -100,9 +96,7 @@ if (isset($_GET['al'])) {
 
         <!-- ======= Footer ======= -->
         <?php
-
-        include("../views/modulos/footer.php");
-
+          include("../views/modulos/footer.php");
         ?>
 
         <!-- End Footer -->
