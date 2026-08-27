@@ -13,10 +13,11 @@ if (isset($_GET['al'])) {
     $alianza = Control_alianzas::Ctr_getAlianza($_GET['al']);
     if (!empty($alianza)) {
 
-      include("header.php");
+      include '../views/modulos/header.php';
 ?>
 
       <body>
+        <?php include '../views/modulos/wap-icon.php'; ?>
 
         <!-- ======= Header ======= -->
         <?php
@@ -128,7 +129,7 @@ if (isset($_GET['al'])) {
 
 function regresar()
 {
-  header("Location: ../nosotros/#alianzas");
+  header("Location: ../asg/#alianzas");
 }
 
 ?>
