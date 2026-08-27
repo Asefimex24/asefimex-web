@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <?php
-include "header.php";
+  require_once "../get_env.php";
+  include '../views/modulos/header.php';
 ?>
 
 <body>
-
+  <?php include '../views/modulos/wap-icon.php'; ?>
   <!-- ======= Header ======= -->
   <?php
-    require_once "../get_env.php";
-    include("../alianzas/menu-header.php");    
+    
+    include("../views/modulos/menu-header.php");    
   ?>
   <!-- End Header -->
 
@@ -121,7 +122,7 @@ include "header.php";
   <!-- End Footer -->
 
   <?php
-  include "scripts_footer.php";
+    // include "scripts_footer.php";
   ?>
 
 </body>
