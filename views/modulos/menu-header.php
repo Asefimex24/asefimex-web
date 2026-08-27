@@ -5,7 +5,7 @@
         <!-- Uncomment below if you prefer to use an image logo -->
          <div class="d-flex align-items-center">
             <a href="#" class="logo">
-            <img src="assets/img/logo-vertical.png" alt="" class="img-fluid">
+            <img src="<?php echo $_ENV['HOME_ROUTE'];  ?>assets/img/logo-vertical.png" alt="" class="img-fluid">
             </a>
          </div>
      
