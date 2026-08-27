@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <?php
-  include("header.php");
+ 
   include("../get_env.php");
+   include '../views/modulos/header.php'
 ?>
 
 <body>
@@ -92,17 +93,12 @@
               <a href="https://github.com/rustdesk/rustdesk/releases/download/1.4.4/rustdesk-1.4.4-x86_64.msi">Descarga Aquí</a>
             </div>
           </div>
-
         </div>  
-
-
      
-
       </div> 
       
       
     </section>
-
 
      <section id="counts" class="counts">
 
@@ -118,14 +114,9 @@
             </div>
           </div>
 
-        </div>  
-
-
-     
-
+        </div>       
       </div> 
-      
-      
+            
     </section>
 
   </main><!-- End #main -->
