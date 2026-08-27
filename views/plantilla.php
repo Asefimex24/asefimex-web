@@ -2,17 +2,17 @@
 <html lang="es">
 
 <?php
+    include("./get_env.php");
     include("views/modulos/header.php");
+
     $heros = Control_Hero::Ctr_getHeros();
     $publicaciones = Control_Publicaciones::Ctr_getPublicaciones();
     $directorio = Control_directorio::Ctr_getDirectorio();
     $directivos = Control_directivos::Ctr_getDirectivos();
     $testimonios = Control_testimonio::Ctr_getTestimonios();
     $productos = Control_productos::ctr_getProductos();
-    include("./get_env.php");
-    include 'modulos/estilo-wap-icon.php';
-?>
 
+?>
 
 
 <body>

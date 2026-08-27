@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <?php
-include "header.php";
+require_once "../get_env.php";
+include "../views/modulos/header.php";
 ?>
 
 <body>
+  <?php include '../views/modulos/wap-icon.php'; ?>
+  
   <!-- ======= Header ======= -->
   <?php
-    require_once "../get_env.php";
+    
     include('../views/modulos/menu-header.php');
 
   ?>
