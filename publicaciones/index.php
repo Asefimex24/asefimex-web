@@ -13,11 +13,11 @@ if (isset($_GET['pub'])) {
 
     if (!empty($publicacion)) {
 
-      include("header.php");
+      include '../views/modulos/header.php';
 ?>
 
       <body>
-
+        <?php include '../views/modulos/wap-icon.php'; ?>
         <!-- ======= Header ======= -->
         <?php
 
@@ -110,7 +110,7 @@ if (isset($_GET['pub'])) {
         <!-- End Footer -->
 
         <?php
-          include("scripts_footer.php");
+          // include("scripts_footer.php");
         ?>
 
       </body>
@@ -123,11 +123,8 @@ if (isset($_GET['pub'])) {
     }
   } else {
 
-
     header('Location: ../#pubs');
-  
-  
-  
+      
   }
 } else {
   header('Location: ../#pubs');
