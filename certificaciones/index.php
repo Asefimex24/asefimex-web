@@ -15,10 +15,11 @@ if (isset($_GET['cert'])) {
     if (!empty($certificacion)) {
 
     
-      include("header.php");
+      include '../views/modulos/header.php';
 ?>
 
       <body>
+          <?php include '../views/modulos/wap-icon.php' ?>
 
         <!-- ======= Header ======= -->
         <?php
@@ -110,7 +111,7 @@ if (isset($_GET['cert'])) {
 
         <?php
 
-        include("scripts_footer.php");
+          // include("scripts_footer.php");
 
         ?>
 
