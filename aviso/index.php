@@ -7,9 +7,11 @@ include "header.php";
 <body>
   <!-- ======= Header ======= -->
   <?php
-  include("../alianzas/menu-header.php");
-  // require_once "../get_env.php";
+    require_once "../get_env.php";
+    include('../views/modulos/menu-header.php');
+
   ?>
+
   <!-- End Header -->
 
   <main id="main">

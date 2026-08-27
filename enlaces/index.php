@@ -2,14 +2,14 @@
 <html lang="es">
 <?php
   include("header.php");
-  // include("../views/modulos/footer.php");
+  include("../get_env.php");
 ?>
 
 <body>
 
   <!-- ======= Header ======= -->
   <?php
-    include("../alianzas/menu-header.php");
+    include('../views/modulos/menu-header.php');
   ?>
   <!-- End Header -->
 

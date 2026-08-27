@@ -23,7 +23,7 @@ if (isset($_GET['cert'])) {
         <!-- ======= Header ======= -->
         <?php
 
-        include("../alianzas/menu-header.php");
+          include('../views/modulos/menu-header.php');
 
         ?>
 

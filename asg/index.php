@@ -8,12 +8,18 @@ include "header.php";
 require_once("../models/model.certificaciones.php");
 require_once("../controller/control.certificaciones.php");
 
+require_once("../models/model.publicaciones.php");
+require_once("../controller/control.publicaciones.php");
+
+
 require_once("../models/model.alianzas.php");
 require_once("../controller/control.alianzas.php");
 
 require_once("../models/modelo.empresa.php");
 require_once("../controller/control.empresa.php");
 require_once("../get_env.php");
+
+$publicaciones = Control_Publicaciones::Ctr_getPublicaciones();
 
 ?>
 
@@ -38,22 +44,14 @@ require_once("../get_env.php");
     </section>
     <!-- End Breadcrumbs -->
 
+    <?php include 'publicaciones.php'; ?>
+
     <?php
-    include "nosotros.php";
+      include "certificaciones.php";
     ?>
 
     <?php
-    #include "sucursales.php";
-    ?>
-    <?php
-    include "certificaciones.php";
-    ?>
-    <?php
-    include "alianzas.php";
-    ?>
-
-    <?php
-    include "bolsalaboral.php";
+      include "alianzas.php";
     ?>
 
 
