@@ -5,7 +5,7 @@
             <h2>Publicaciones</h2>
             <p>Publicaciones Recientes</p>
         </div>
-
+           <?php $publicaciones = Control_Publicaciones::Ctr_getPublicaciones(); ?>
         <div class="row">
 
             <?php foreach ($publicaciones as $key => $publi_value) { ?>

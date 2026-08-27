@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <?php
-include "header.php";
+  require '../get_env.php';
+  include '../views/modulos/header.php';
 ?>
 
 <?php
@@ -17,14 +18,11 @@ require_once("../controller/control.alianzas.php");
 
 require_once("../models/modelo.empresa.php");
 require_once("../controller/control.empresa.php");
-require_once("../get_env.php");
-
-$publicaciones = Control_Publicaciones::Ctr_getPublicaciones();
 
 ?>
 
 <body>
-
+  <?php include '../views/modulos/wap-icon.php'; ?>
   <!-- ======= Header ======= -->
   <?php
     include('../views/modulos/menu-header.php');
@@ -65,7 +63,7 @@ $publicaciones = Control_Publicaciones::Ctr_getPublicaciones();
   <!-- End Footer -->
 
   <?php
-   include "scripts_footer.php";
+     include "scripts_footer.php";
   ?>
 
 </body>
