@@ -2,38 +2,22 @@
 <html lang="es">
 
 <?php
-include("views/modulos/header.php");
-$heros = Control_Hero::Ctr_getHeros();
-$publicaciones = Control_Publicaciones::Ctr_getPublicaciones();
-$directorio = Control_directorio::Ctr_getDirectorio();
-$directivos = Control_directivos::Ctr_getDirectivos();
-$testimonios = Control_testimonio::Ctr_getTestimonios();
-$productos = Control_productos::ctr_getProductos();
-include("./get_env.php");
+    include("views/modulos/header.php");
+    $heros = Control_Hero::Ctr_getHeros();
+    $publicaciones = Control_Publicaciones::Ctr_getPublicaciones();
+    $directorio = Control_directorio::Ctr_getDirectorio();
+    $directivos = Control_directivos::Ctr_getDirectivos();
+    $testimonios = Control_testimonio::Ctr_getTestimonios();
+    $productos = Control_productos::ctr_getProductos();
+    include("./get_env.php");
+    include 'modulos/estilo-wap-icon.php';
 ?>
 
-<style>
-    .float-wa {
-        position: fixed;
-        left: 100;
-        width: 60px;
-        height: 60px;
-        bottom: 40px;
-        right: 40px;
-        background-color: #25d366;
-        color: #FFF;
-        border-radius: 50px;
-        text-align: center;
-        font-size: 30px;
-        z-index: 100;
-    }
-</style>
+
 
 <body>
 
-    <a href="https://wa.me/5219615792121?text=Necesito+información" class="float-wa" target="_blank">
-        <i class="fa fa-whatsapp" style="margin-top:16px;"></i>
-    </a>
+    <?php include 'modulos/wap-icon.php'; ?>
 
     <?php
     // include("views/modulos/modal_video.php");
@@ -66,7 +50,7 @@ include("./get_env.php");
 
         <!-- ======= Counts Section ======= -->
         <?php
-        #include("views/modulos/count.php");
+            include("views/modulos/count.php");
         ?>
         <!-- End Counts Section -->
 

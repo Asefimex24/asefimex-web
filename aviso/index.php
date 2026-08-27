@@ -369,10 +369,6 @@ include "header.php";
 
   <!-- End Footer -->
 
-  <?php
-  // include "scripts_footer.php";
-  // include("../views/modulos/scripts_footer.php");
-  ?>
 
 </body>
 

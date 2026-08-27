@@ -59,13 +59,13 @@ $publicaciones = Control_Publicaciones::Ctr_getPublicaciones();
 
   <!-- ======= Footer ======= -->
   <?php
-  include("../views/modulos/footer.php");
+    include("../views/modulos/footer.php");
   ?>
 
   <!-- End Footer -->
 
   <?php
-  include "scripts_footer.php";
+   include "scripts_footer.php";
   ?>
 
 </body>

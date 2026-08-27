@@ -1,0 +1,16 @@
+<style>
+    .float-wa {
+        position: fixed;
+        left: 100;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        z-index: 100;
+    }
+</style>

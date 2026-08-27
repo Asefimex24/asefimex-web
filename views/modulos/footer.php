@@ -62,11 +62,11 @@
             <!-- Pendiente agregar las imagenes con ruta de variable de entorno para utilizar el mismo apartado en todas las secciones -->
         <p style="text-align: center;">
        
-            <img src="<?php echo $_ENV['HOME_ROUTE']; ?>assets/img/condusef.webp" alt="" style="width: 80px;heigth:80px">
+            <img src="<?php echo $_ENV['HOME_ROUTE']; ?>assets/img/logo-condusef.png" alt="" style="width: 80px;heigth:80px">
             
-            <img src="<?php echo $_ENV['HOME_ROUTE']; ?>assets/img/cnbv.webp" alt="" style="width: 80px;heigth:80px">
-           <a href="assets/docs/Que-es-el-BEF.pdf" target="_blank">
-            <img src="<?php echo $_ENV['HOME_ROUTE']; ?>assets/img/buro.webp" alt="" style="width: 80px;heigth:80px"></a>
+            <img src="<?php echo $_ENV['HOME_ROUTE']; ?>assets/img/logo-cnbv.png" alt="" style="width: 80px;heigth:80px">
+                            <a href="<?php echo $_ENV['HOME_ROUTE']; ?>assets/docs/Que-es-el-BEF.pdf" target="_blank">
+            <img src="<?php echo $_ENV['HOME_ROUTE']; ?>assets/img/logo-buro.png" alt="" style="width: 80px;heigth:80px"></a>
         
         </p>
         <div class="copyright">
