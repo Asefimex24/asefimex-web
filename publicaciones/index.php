@@ -54,7 +54,7 @@ if (isset($_GET['pub'])) {
                     <div class="swiper-wrapper align-items-center">
 
                       <div class="swiper-slide">
-                        <img src="<?php echo $_ENV["HOME_ROUTE"]."/assets/img/pubs/".$publicacion['imagen']; ?>" alt="">
+                        <img src="<?php echo $_ENV["HOME_ROUTE"]."assets/img/pubs/".$publicacion['imagen']; ?>" alt="">
                       </div>
 
                       <!--
