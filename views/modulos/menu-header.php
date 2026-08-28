@@ -12,8 +12,8 @@
         <?php  ?>
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="<?php echo $_ENV['HOME_ROUTE'];  ?>">Inicio</a></li>
-                <li><a class="nav-link scrollto active" href="">Nosotros</a></li>
+                <li><a class="nav-link scrollto active" href="<?php echo $_ENV['HOME_ROUTE'];  ?>#">Inicio</a></li>
+                <li><a class="nav-link scrollto" href="<?php echo $_ENV['HOME_ROUTE'];  ?>#nosotros">Nosotros</a></li>
                 <li><a class="nav-link scrollto" href="<?php echo $_ENV['HOME_ROUTE'];  ?>#products">Productos</a></li>
                 <li class="dropdown"><a href="#"><span>ASG</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
@@ -30,8 +30,6 @@
                     <ul>
                          <li><a href="<?php echo $_ENV['HOME_ROUTE'];  ?>aviso/">Aviso de Privacidad</a></li>
                         <li><a href="<?php echo $_ENV['HOME_ROUTE'];  ?>une/">Aviso UNE</a></li>
-                         <!-- <li><a href="mntto/">Bolsa de Trabajo</a></li> -->
-                        <!-- <li><a href="bef/">Buró de Entidades Financieras</a></li> -->
                     </ul>
                 </li>
 

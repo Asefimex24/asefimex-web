@@ -11,6 +11,7 @@
     $directivos = Control_directivos::Ctr_getDirectivos();
     $testimonios = Control_testimonio::Ctr_getTestimonios();
     $productos = Control_productos::ctr_getProductos();
+    $empresa = Control_Empresa::ctr_getEmpresas();
 
 ?>
 
@@ -39,7 +40,7 @@
 
     <main id="main">
 
-        <!-- ======= About Section ======= -->
+        <?php include 'modulos/nosotros.php';   ?>
         <?php
             
             #include("views/modulos/solicitud.php");

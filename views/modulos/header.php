@@ -34,6 +34,7 @@
 
   <!-- Template Main CSS File -->
   <link href="<?php echo $_ENV['HOME_ROUTE']; ?>assets/css/style.css" rel="stylesheet">
+  
   <!-- <link href="assets/css/carr-products.css" rel="stylesheet"> -->
   <link href="<?php echo $_ENV['HOME_ROUTE']; ?>assets/css/carr-2.css" rel="stylesheet">
 

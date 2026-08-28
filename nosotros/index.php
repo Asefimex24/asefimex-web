@@ -42,15 +42,7 @@ require_once("../get_env.php");
     include "nosotros.php";
     ?>
 
-    <?php
-    #include "sucursales.php";
-    ?>
-    <?php
-    include "certificaciones.php";
-    ?>
-    <?php
-    include "alianzas.php";
-    ?>
+
 
     <?php
     include "bolsalaboral.php";

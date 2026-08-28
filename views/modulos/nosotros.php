@@ -7,9 +7,10 @@ $empresa = Control_Empresa::ctr_getEmpresas();
 
         <div class="row">
 
-            <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("../assets/img/default_full2.jpg");' data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("<?php echo $_ENV['HOME_ROUTE'] ?>assets/img/default_full2.jpg");' data-aos="zoom-in" data-aos-delay="100">
 
                 <a href="https://youtu.be/lqRCh2V5aR8?si=8-wrt3cj4IjFTLrL" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+            
             </div>
 
             <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
