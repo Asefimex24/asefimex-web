@@ -127,7 +127,7 @@
                     <h3>Solicita tu Crédito Ahora</h3>
                     <p> Llévate tu Mototaxi Fácil y Rápido con pagos Quincenales y hasta 2 años de financiamiento.
                     </p>
-                    <a class="cta-btn" href="mntto/">Solicitar Crédito</a>
+                    <a class="cta-btn" href="https://asefimex.lightia.mx/client" target="_blank">Solicitar Crédito</a>
                 </div>
 
             </div>
