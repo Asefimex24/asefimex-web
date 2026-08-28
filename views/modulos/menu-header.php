@@ -15,6 +15,8 @@
                 <li><a class="nav-link scrollto active" href="<?php echo $_ENV['HOME_ROUTE'];  ?>#">Inicio</a></li>
                 <li><a class="nav-link scrollto" href="<?php echo $_ENV['HOME_ROUTE'];  ?>#nosotros">Nosotros</a></li>
                 <li><a class="nav-link scrollto" href="<?php echo $_ENV['HOME_ROUTE'];  ?>#products">Productos</a></li>
+                <li><a class="nav-link scrollto" href="<?php echo $_ENV['HOME_ROUTE'];  ?>#testimonials">Testimonios</a></li>
+                <li><a class="nav-link scrollto" href="<?php echo $_ENV['HOME_ROUTE'];  ?>#contact">Contacto</a></li>
                 <li class="dropdown"><a href="#"><span>ASG</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="<?php echo $_ENV['HOME_ROUTE'];  ?>asg/#pubs">Publicaciones</a></li>
@@ -24,9 +26,7 @@
                         <li><a href="<?php echo $_ENV['HOME_ROUTE'];  ?>asg/">Blog Social</a></li>
                     </ul>
                 </li>
-                <li><a class="nav-link scrollto" href="<?php echo $_ENV['HOME_ROUTE'];  ?>#testimonials">Testimonios</a></li>
-                <li><a class="nav-link scrollto" href="<?php echo $_ENV['HOME_ROUTE'];  ?>#contact">Contacto</a></li>
-                                <li class="dropdown"><a href="#"><span>Acerca de</span> <i class="bi bi-chevron-down"></i></a>
+                <li class="dropdown"><a href="#"><span>Acerca de</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                          <li><a href="<?php echo $_ENV['HOME_ROUTE'];  ?>aviso/">Aviso de Privacidad</a></li>
                         <li><a href="<?php echo $_ENV['HOME_ROUTE'];  ?>une/">Aviso UNE</a></li>
