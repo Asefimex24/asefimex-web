@@ -51,7 +51,7 @@
 
         <!-- ======= Counts Section ======= -->
         <?php
-            include("views/modulos/count.php");
+            // include("views/modulos/count.php");
         ?>
         <!-- End Counts Section -->
 

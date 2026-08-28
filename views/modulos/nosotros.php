@@ -7,11 +7,24 @@ $empresa = Control_Empresa::ctr_getEmpresas();
 
         <div class="row">
 
-            <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("<?php echo $_ENV['HOME_ROUTE'] ?>assets/img/default_full2.jpg");' data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-lg-5 align-items-stretch video-box" style='margin-top:150px; height:100%; background-image: url("<?php echo $_ENV['HOME_ROUTE'] ?>assets/img/default_full2.jpg");' data-aos="zoom-in" data-aos-delay="100">
 
-                <a href="https://youtu.be/lqRCh2V5aR8?si=8-wrt3cj4IjFTLrL" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+                <!-- <a href="https://youtu.be/lqRCh2V5aR8?si=8-wrt3cj4IjFTLrL" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a> -->
+                    <iframe
+        width="100%"
+        height="400"
+        src="https://www.youtube.com/embed/lqRCh2V5aR8"
+        title="Video YouTube"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
             
             </div>
+
+        
+
+
 
             <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
 
